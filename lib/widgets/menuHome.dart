@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constant.dart';
+import '../styles/constant.dart';
 
 class MenuWidget extends StatelessWidget {
   MenuWidget({required this.text, required this.url, required this.img});

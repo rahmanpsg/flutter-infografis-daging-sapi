@@ -7,4 +7,5 @@ const dangerColor = Color(0xFFCD0A0A);
 const bgColor = Color(0xFFF1F3DE);
 
 // Text Style
-const primaryStyle = TextStyle(fontSize: 14, color: Colors.white);
+const primaryStyle =
+    TextStyle(fontFamily: 'Gothic', fontSize: 14, color: Colors.white);

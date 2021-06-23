@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:infografis_daging_sapi/constant.dart';
+import 'package:infografis_daging_sapi/styles/constant.dart';
 
 class TentangScreen extends StatelessWidget {
   const TentangScreen({Key? key}) : super(key: key);

@@ -1,23 +1,27 @@
 part of 'infografis_bloc.dart';
 
-abstract class InfografisState extends Equatable {
-  const InfografisState();
+class InfografisState extends Equatable {
+  const InfografisState({
+    this.infografisList = const <InfografisModel>[],
+    this.selectedList = -1,
+  });
 
-  @override
-  List<Object> get props => [];
-}
+  final List<InfografisModel> infografisList;
+  final int selectedList;
 
-class InfografisInitial extends InfografisState {}
-
-class SelectedDaging extends InfografisState {
-  final int value;
-
-  SelectedDaging(this.value);
-
-  SelectedDaging copyWith(value) {
-    return SelectedDaging(value);
+  InfografisState copyWith(
+      {List<InfografisModel>? infografisList, int? selectedList}) {
+    return InfografisState(
+      infografisList: infografisList ?? this.infografisList,
+      selectedList: selectedList ?? this.selectedList,
+    );
   }
 
   @override
-  List<Object> get props => [value];
+  String toString() {
+    return '''PostState { infografisList: $infografisList, selectedList: $selectedList }''';
+  }
+
+  @override
+  List<Object> get props => [infografisList, selectedList];
 }

@@ -7,7 +7,11 @@ abstract class InfografisEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class Selected extends InfografisEvent {
-  Selected(this.value);
-  final int value;
+class InfografisLoaded extends InfografisEvent {
+  InfografisLoaded();
+}
+
+class SelectedChange extends InfografisEvent {
+  SelectedChange(this.selected);
+  final int selected;
 }

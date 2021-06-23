@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infografis_daging_sapi/bloc/infografis_bloc.dart';
-import 'package:infografis_daging_sapi/constant.dart';
+import 'package:infografis_daging_sapi/styles/constant.dart';
 import 'screens/home.dart';
 import 'screens/infografis.dart';
 import 'screens/mitosFakta.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     );
 
     return BlocProvider(
-      create: (context) => InfografisBloc(),
+      create: (context) => InfografisBloc()..add(InfografisLoaded()),
       child: MaterialApp(
         // debugShowCheckedModeBanner: false,
         title: 'Infografis Daging Sapi',
