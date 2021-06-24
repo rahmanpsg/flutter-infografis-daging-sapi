@@ -7,8 +7,8 @@ part 'infografis_models.g.dart';
 class InfografisModel with _$InfografisModel {
   const factory InfografisModel({
     required int id,
-    required String namaIdn,
-    required String namaEng,
+    required Map nama,
+    required Map deskripsi,
   }) = $_InfografisModel;
 
   factory InfografisModel.fromJson(Map<String, dynamic> json) =>

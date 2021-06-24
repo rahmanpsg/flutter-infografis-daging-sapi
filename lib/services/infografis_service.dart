@@ -10,6 +10,10 @@ class InfografisService extends SupabaseService<InfografisModel> {
   }
 
   Future<PostgrestResponse> fetchInfografis() async {
-    return await supabase.from("infografis").select("*").execute();
+    return await supabase
+        .from("infografis")
+        .select("*")
+        .order("id", ascending: true)
+        .execute();
   }
 }

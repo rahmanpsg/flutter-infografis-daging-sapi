@@ -1,0 +1,325 @@
+[
+    {
+        "id": 1,
+        "nama": {
+            "id": "Ekor",
+            "en": "Ox Tail"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Ekor sapi atau dalam bahasa Jawa disebut dengan Buntut sapi adalah bagian ekor dari tubuh sapi. Biasanya bagian ini disajikan sebagai hidangan sup buntut",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "The cow's tail or in Javanese it is called the cow's tail is the tail part of the cow's body. Usually this part is served as oxtail soup",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "nama": {
+            "id": "Tanjung",
+            "en": "Rump"
+        },
+        "deskripsi": {
+            "id": {
+                "ket": "Bagian ini memiliki tekstur yang cukup lunak sehingga biasa digunakan untuk dipanggang, digoreng atau ditumis/oseng. Bagian inilah yang paling sering dipilih untuk membuat sate",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Kering",
+                "kekenyalan": "kenyal"
+            },
+            "en": {
+                "ket": "This part has a fairly soft texture so it is usually used for baking, frying or sautéing. This part is most often chosen to make satay membuat",
+                "warna": "Merah khas daging segar",
+                "aroma": "Fresh red meat",
+                "penampakan": "Dry",
+                "kekenyalan": "Chewy"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "nama": {
+            "id": "Has Luar",
+            "en": "Sirloin"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Has Luar atau sirloin adalah bagian daging sapi yang berasal dari bagian bawah daging iga, terus sampai ke bagian sisi luar has dalam. Daging ini adalah daging yang paling murah dari semua jenis has, karena otot sapi pada bagian ini masih lumayan keras dibanding bagian has yang lain karena otot-otot di sekitar daging ini paling banyak digunakan untuk bekerja. Biasanya daging ini digunakan untuk membuat steak",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Kering",
+                "kekenyalan": "kenyal"
+            },
+            "en" :{
+                "ket": "Has Luar or sirloin is the part of beef that comes from the bottom of the ribs, all the way to the outside of the inner has. This meat is the cheapest meat of all types of hash, because the beef muscle in this section is still quite tough compared to other parts of the hash because the muscles around this meat are used the most for working. Usually this meat is used to make steaks",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Dry",
+                "kekenyalan": "Chewy"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "nama": {
+            "id": "Has Dalam",
+            "en": "Tenderloin"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Has Dalam, fillet atau tenderloin adalah daging sapi dari bagian tengah badan. Sesuai dengan karakteristik daging has, daging ini terdiri dari bagian-bagian otot utama di sekitar bagian tulang belakang, dan kurang lebih di antara bahu dan tulang panggul. Daerah ini adalah bagian yang paling lunak, karena otot-otot di bagian ini jarang dipakai untuk beraktivitas. Biasanya bagian daging ini digunakan untuk membuat steak",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Kering",
+                "kekenyalan": "kenyal"
+            },
+            "en" :{
+                "ket": "Has Dalam, fillet or tenderloin is beef from the middle of the body. In accordance with the characteristics of hash meat, this meat consists of parts of the main muscles around the spine, and more or less between the shoulders and the pelvis. This area is the softest part, because the muscles in this area are rarely used for activities. Usually this part of the meat is used to make steak",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Dry",
+                "kekenyalan": "Chewy"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "nama": {
+            "id": "Has Atas",
+            "en": "Top Sirloin"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Merupakan bagian sirloin yang lebih disuka karena dianggap lebih enak dan lembut daripada bagian sirloin. Merupakan potongan daging yang biasa diolah dalam sajian steak",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "It is the sirloin part that is preferred because it is considered more delicious and tender than the sirloin part. Is a piece of meat that is usually processed in a steak dish",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "nama": {
+            "id": "Has Bawah",
+            "en": "Bottom Sirloin"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Steak sirloin bawah adalah potongan steak dari bagian belakang hewan di bawah sirloin atas dan di atas sayap. Dagingnya sering digunakan untuk memasak steak tri-tip dan flap",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "The bottom sirloin steak is a steak cut from the back of the animal below top sirloin and above the flank. The meat is often used to cook the tri-tip and flap steak",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "nama": {
+            "id": "Has Pendek",
+            "en": "Short Sirloin"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Sama dengan bagian flank, short plate merupakan potongan daging dari bagian otot perut, bentuknya panjang dan datar, tetapi tekstur dagingnya kurang lunak. Dalam potongan daging ala Inggris, short plate dikategorikan sebagai bagian dari brisket. Daging bagian short plate biasanya digunakan untuk menjadi daging giling, kornet, semur atau diolah menjadi beef bacon",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "Similar to the pelvis, short plate is a cut of meat from the abdominal muscles, long and flat shape, but the texture of the meat is less soft. In British cuts of meat, the short plate is categorized as part of the brisket. The short plate meat is usually used as ground beef, corned beef, stews or processed into beef bacon",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "nama": {
+            "id": "Iga",
+            "en": "Rib"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Daging Iga Sapi atau rib adalah bagian daging sapi yang berasal dari daging di sekitar tulang iga atau tulang rusuk. Bagian ini termasuk dari delapan bagian utama daging sapi yang biasa dikonsumsi. Seluruh bagian daging iga ini bisa terdiri dari beberapa iga, mulai dari iga ke 6 sampai dengan iga ke- 12; untuk potongan daging iga yang akan dikonsumsi bisa terdiri dari 2 sampai dengan 7 tulang iga. \nTulang iga, atau short ribs, biasa diolah menjadi sup seperti sup konro. Bisa juga dimasak semur, dipanggang.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Lembab",
+                "kekenyalan": "Kurang kenyal"
+            },
+            "en" :{
+                "ket": "Beef ribs or ribs are parts of beef that come from meat around the ribs or ribs. This section includes the eight main parts of beef that are commonly consumed. The whole part of this rib meat can consist of several ribs, from the 6th to the 12th rib; for pieces of ribs to be consumed can consist of 2 to 7 ribs. \nRibs, or short ribs, are usually processed into soups such as konro soup. Can also be cooked stews, baked.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Moist",
+                "kekenyalan": "Less chewy"
+            }
+        }
+    },
+    {
+        "id": 9,
+        "nama": {
+            "id": "Paha Depan",
+            "en": "Chuck"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Daging sapi paha depan atau dikenal juga sebagai chuck adalah bagian daging sapi yang berasal dari bagian atas paha depan. Ciri daging ini adalah berbentuk potongan segiempat dengan ketebalan sekitar 2-3 cm, dengan bagian dari tulang pundak masih menempel ke bagian paha sampai ke bagian terluar dari punuk. Biasanya daging ini digunakan untuk membuat bakso.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Lembab",
+                "kekenyalan": "Kurang kenyal"
+            },
+            "en" :{
+                "ket": "Beef quadriceps or also known as chuck is the part of beef that comes from the top of the quadriceps. The characteristics of this meat are rectangular pieces with a thickness of about 2-3 cm, with part of the shoulder bone still attached to the thigh to the outer part of the hump. Usually this meat is used to make meatballs.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Moist",
+                "kekenyalan": "Less chewy"
+            }
+        }
+    },
+    {
+        "id": 10,
+        "nama": {
+            "id": "Punuk",
+            "en": "Neck"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Potongan daging sapi bagian ini diambil dari leher yang menyambung dengan bagian paha depan. Pada bagian tengahnya terdapat serat-serat kasar yang mengarah ke bagian bawah. Biasanya daging ini digunakan untuk membuat makanan khas Nusa tenggara Timur yaitu Se’i (sejenis daging asap).",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Lembab",
+                "kekenyalan": "Kurang kenyal"
+            },
+            "en" :{
+                "ket": "This piece of beef is taken from the neck that connects to the quadriceps. In the middle there are coarse fibers that lead to the bottom. Usually this meat is used to make the typical food of East Nusa Tenggara, namely Se'i (a type of smoked meat).",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Moist",
+                "kekenyalan": "Less chewy"
+            }
+        }
+    },
+    {
+        "id": 11,
+        "nama": {
+            "id": "Sengkel",
+            "en": "Shank"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Sengkel (diucapkan [sɛŋkəl] bahasa Belanda: Schenkel, bahasa Inggris: Shank / Shin) berasal dari bagian depan atas kaki sapi. Biasanya digunakan sebagai bahan dasar sup, soto dan bakso urat.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Lembab",
+                "kekenyalan": "Kurang kenyal"
+            },
+            "en" :{
+                "ket": "Sengkel (pronounced [sɛŋkəl] Dutch: Schenkel, English: Shank / Shin) originates from the upper front part of the cow's leg. Usually used as a base for soups, soups and muscle meatballs.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Moist",
+                "kekenyalan": "Less chewy"
+            }
+        }
+    },
+    {
+        "id": 12,
+        "nama": {
+            "id": "Sancan",
+            "en": "Flank"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Sancan (bahasa Inggris: Flank / Plate) adalah bagian daging sapi yang berasal dari otot perut. Bentuknya panjang dan datar, tetapi kurang lunak. Pada dasarnya bagian daging sapi ini memang lebih keras dibandingkan dengan daging has dan daging iga. Biasanya daging ini digunakan untuk campuran taco, makanan khas Meksiko, dan bisa juga digunakan untuk membuat steak. Sancan yang diiris tipis-tipis sering kali dijual sebagai daging oseng-oseng. Untuk membantu melunakkan potongan daging ini bisa dengan dipukul-pukul sebelum dimasak.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "Sancan (English: Flank / Plate) is a part of beef that comes from the abdominal muscles. The shape is long and flat, but less soft. Basically this part of the beef is tougher than the hash and ribs. Usually this meat is used to mix tacos, a typical Mexican dish, and can also be used to make steaks. Thinly sliced ​​​​sancans are often sold as stir-fried meat. To help soften this piece of meat can be beaten before cooking.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 13,
+        "nama": {
+            "id": "Perut",
+            "en": "Plate"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Potongan bagian depan dari perut sapi, tepat di bawah potongan tulang rusuk. Ini biasanya merupakan daging yang murah, keras, dan berlemak.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "Cut the front of the beef belly, just below the rib cut. This is usually a cheap, tough, fatty meat.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    },
+    {
+        "id": 14,
+        "nama": {
+            "id": "Sandung Lamur",
+            "en": "Brisket"
+        },
+        "deskripsi": {
+            "id" :{
+                "ket": "Sandung lamur (bahasa Inggris: Brisket) adalah bagian daging sapi yang berasal dari bagian dada bawah sekitar ketiak. Pada kenyataannya hampir semua hewan yang memiliki bagian dada bawah akan mempunyai bagian daging ini, akan tetapi terminologi yang digunakan untuk bagian daging ini lebih umum digunakan untuk menyebut bagian daging sapi atau bagian daging anak sapi. Bagian daging ini termasuk delapan bagian daging sapi yang utama. \nBiasanya bagian daging sapi ini agak berlemak dan digunakan untuk masakan khas Padang seperti Asam Padeh, serta untuk salah satu masakan khas Jawa Timur yaitu Rawon.",
+                "warna": "Merah khas daging segar",
+                "aroma": "Khas daging segar",
+                "penampakan": "Basah",
+                "kekenyalan": "Lembek"
+            },
+            "en" :{
+                "ket": "Brisket is a piece of beef that comes from the lower breast around the armpit. In fact almost all animals that have a lower breast will have this part of the meat, but the terminology used for this part of the meat is more commonly used to refer to the beef part or the calf part. This section of meat includes the eight main sections of beef. \nUsually this part of the beef is a bit fatty and is used for Padang specialties such as Asam Padeh, as well as for one of East Java's specialties, Rawon.",
+                "warna": "Fresh meat special",
+                "aroma": "Fresh red meat",
+                "penampakan": "Wet",
+                "kekenyalan": "Mushy"
+            }
+        }
+    }
+
+]

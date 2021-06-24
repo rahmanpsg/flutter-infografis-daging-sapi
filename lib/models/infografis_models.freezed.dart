@@ -21,11 +21,13 @@ class _$InfografisModelTearOff {
   const _$InfografisModelTearOff();
 
   $_InfografisModel call(
-      {required int id, required String namaIdn, required String namaEng}) {
+      {required int id,
+      required Map<dynamic, dynamic> nama,
+      required Map<dynamic, dynamic> deskripsi}) {
     return $_InfografisModel(
       id: id,
-      namaIdn: namaIdn,
-      namaEng: namaEng,
+      nama: nama,
+      deskripsi: deskripsi,
     );
   }
 
@@ -40,8 +42,8 @@ const $InfografisModel = _$InfografisModelTearOff();
 /// @nodoc
 mixin _$InfografisModel {
   int get id => throw _privateConstructorUsedError;
-  String get namaIdn => throw _privateConstructorUsedError;
-  String get namaEng => throw _privateConstructorUsedError;
+  Map<dynamic, dynamic> get nama => throw _privateConstructorUsedError;
+  Map<dynamic, dynamic> get deskripsi => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -54,7 +56,8 @@ abstract class $InfografisModelCopyWith<$Res> {
   factory $InfografisModelCopyWith(
           InfografisModel value, $Res Function(InfografisModel) then) =
       _$InfografisModelCopyWithImpl<$Res>;
-  $Res call({int id, String namaIdn, String namaEng});
+  $Res call(
+      {int id, Map<dynamic, dynamic> nama, Map<dynamic, dynamic> deskripsi});
 }
 
 /// @nodoc
@@ -69,22 +72,22 @@ class _$InfografisModelCopyWithImpl<$Res>
   @override
   $Res call({
     Object? id = freezed,
-    Object? namaIdn = freezed,
-    Object? namaEng = freezed,
+    Object? nama = freezed,
+    Object? deskripsi = freezed,
   }) {
     return _then(_value.copyWith(
       id: id == freezed
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as int,
-      namaIdn: namaIdn == freezed
-          ? _value.namaIdn
-          : namaIdn // ignore: cast_nullable_to_non_nullable
-              as String,
-      namaEng: namaEng == freezed
-          ? _value.namaEng
-          : namaEng // ignore: cast_nullable_to_non_nullable
-              as String,
+      nama: nama == freezed
+          ? _value.nama
+          : nama // ignore: cast_nullable_to_non_nullable
+              as Map<dynamic, dynamic>,
+      deskripsi: deskripsi == freezed
+          ? _value.deskripsi
+          : deskripsi // ignore: cast_nullable_to_non_nullable
+              as Map<dynamic, dynamic>,
     ));
   }
 }
@@ -96,7 +99,8 @@ abstract class $$_InfografisModelCopyWith<$Res>
           $_InfografisModel value, $Res Function($_InfografisModel) then) =
       _$$_InfografisModelCopyWithImpl<$Res>;
   @override
-  $Res call({int id, String namaIdn, String namaEng});
+  $Res call(
+      {int id, Map<dynamic, dynamic> nama, Map<dynamic, dynamic> deskripsi});
 }
 
 /// @nodoc
@@ -113,22 +117,22 @@ class _$$_InfografisModelCopyWithImpl<$Res>
   @override
   $Res call({
     Object? id = freezed,
-    Object? namaIdn = freezed,
-    Object? namaEng = freezed,
+    Object? nama = freezed,
+    Object? deskripsi = freezed,
   }) {
     return _then($_InfografisModel(
       id: id == freezed
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as int,
-      namaIdn: namaIdn == freezed
-          ? _value.namaIdn
-          : namaIdn // ignore: cast_nullable_to_non_nullable
-              as String,
-      namaEng: namaEng == freezed
-          ? _value.namaEng
-          : namaEng // ignore: cast_nullable_to_non_nullable
-              as String,
+      nama: nama == freezed
+          ? _value.nama
+          : nama // ignore: cast_nullable_to_non_nullable
+              as Map<dynamic, dynamic>,
+      deskripsi: deskripsi == freezed
+          ? _value.deskripsi
+          : deskripsi // ignore: cast_nullable_to_non_nullable
+              as Map<dynamic, dynamic>,
     ));
   }
 }
@@ -137,7 +141,7 @@ class _$$_InfografisModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$$_InfografisModel implements $_InfografisModel {
   const _$$_InfografisModel(
-      {required this.id, required this.namaIdn, required this.namaEng});
+      {required this.id, required this.nama, required this.deskripsi});
 
   factory _$$_InfografisModel.fromJson(Map<String, dynamic> json) =>
       _$_$$_InfografisModelFromJson(json);
@@ -145,13 +149,13 @@ class _$$_InfografisModel implements $_InfografisModel {
   @override
   final int id;
   @override
-  final String namaIdn;
+  final Map<dynamic, dynamic> nama;
   @override
-  final String namaEng;
+  final Map<dynamic, dynamic> deskripsi;
 
   @override
   String toString() {
-    return 'InfografisModel(id: $id, namaIdn: $namaIdn, namaEng: $namaEng)';
+    return 'InfografisModel(id: $id, nama: $nama, deskripsi: $deskripsi)';
   }
 
   @override
@@ -160,19 +164,19 @@ class _$$_InfografisModel implements $_InfografisModel {
         (other is $_InfografisModel &&
             (identical(other.id, id) ||
                 const DeepCollectionEquality().equals(other.id, id)) &&
-            (identical(other.namaIdn, namaIdn) ||
+            (identical(other.nama, nama) ||
+                const DeepCollectionEquality().equals(other.nama, nama)) &&
+            (identical(other.deskripsi, deskripsi) ||
                 const DeepCollectionEquality()
-                    .equals(other.namaIdn, namaIdn)) &&
-            (identical(other.namaEng, namaEng) ||
-                const DeepCollectionEquality().equals(other.namaEng, namaEng)));
+                    .equals(other.deskripsi, deskripsi)));
   }
 
   @override
   int get hashCode =>
       runtimeType.hashCode ^
       const DeepCollectionEquality().hash(id) ^
-      const DeepCollectionEquality().hash(namaIdn) ^
-      const DeepCollectionEquality().hash(namaEng);
+      const DeepCollectionEquality().hash(nama) ^
+      const DeepCollectionEquality().hash(deskripsi);
 
   @JsonKey(ignore: true)
   @override
@@ -188,8 +192,8 @@ class _$$_InfografisModel implements $_InfografisModel {
 abstract class $_InfografisModel implements InfografisModel {
   const factory $_InfografisModel(
       {required int id,
-      required String namaIdn,
-      required String namaEng}) = _$$_InfografisModel;
+      required Map<dynamic, dynamic> nama,
+      required Map<dynamic, dynamic> deskripsi}) = _$$_InfografisModel;
 
   factory $_InfografisModel.fromJson(Map<String, dynamic> json) =
       _$$_InfografisModel.fromJson;
@@ -197,9 +201,9 @@ abstract class $_InfografisModel implements InfografisModel {
   @override
   int get id => throw _privateConstructorUsedError;
   @override
-  String get namaIdn => throw _privateConstructorUsedError;
+  Map<dynamic, dynamic> get nama => throw _privateConstructorUsedError;
   @override
-  String get namaEng => throw _privateConstructorUsedError;
+  Map<dynamic, dynamic> get deskripsi => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
   $$_InfografisModelCopyWith<$_InfografisModel> get copyWith =>

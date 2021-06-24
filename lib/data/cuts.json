@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "nama": {
+            "id": "Lengan Panggang",
+            "en": "Arm Roast"
+        },
+        "deskripsi":{
+            "id":"Terhitung di antara potongan Daging Sapi Primal terberat, Arm Roast telah dianggap sebagai salah satu bagian Daging Sapi yang paling ramping oleh Departemen Pertanian Amerika Serikat (USDA). Bahkan, potongan daging sapi murah ini dianggap sebagai pilihan yang sehat karena kandungan kolesterolnya yang minim.",
+            "en":"Counted among the toughest Primal Beef cuts, Arm Roast has been regarded as one of the leanest portions of Beef by the United States Department of Agriculture (USDA). In fact, this low-priced Beef cut is considered a healthy choice due to its minimal cholestrol content."
+        },
+        "image": "cow_blade_roast.png"
+    },
+    {
+        "id": 2,
+        "nama": {
+            "id": "Steak Lengan",
+            "en": "Arm Steak"
+        },
+        "deskripsi":{
+            "id":"Dikategorikan sebagai steak yang keras, Arm Steak diekstraksi dari Arm Pot Roast Cut dengan memotongnya menjadi irisan setebal sekitar inci (2cm). Sama seperti Arm Roast, Arm Steak adalah porsi daging tanpa lemak dan dianggap sebagai pilihan sehat bagi pengamat diet.",
+            "en":"Categorized as a tough steak, the Arm Steak is extracted from the Arm Pot Roast Cut by cutting it into slices of around ¾ inch (2cm) thickness. Much like the Arm Roast, the Arm Steak is a lean portion of meat and is considered a healthy choice for diet watchers."
+        },
+        "image": "cow_round_bone_steak.png"
+    },
+    {
+        "id": 3,
+        "nama": {
+            "id": "Iga Belakang",
+            "en": "Back Ribs"
+        },
+        "deskripsi":{
+            "id":"Beef Back Ribs merupakan potongan utama Daging Sapi yang merupakan salah satu bagian Daging Sapi yang paling banyak diminati secara komersial. Potongan terkenal lainnya seperti Rib Eye Steak dan Prime Rib diambil dari bagian ini. Ini adalah potongan daging yang relatif mahal yang dikenal dengan marmernya, rasa dagingnya yang kaya dan kelembutannya.",
+            "en":"Beef Back Ribs form a primal cut of Beef that are among the most in-demand portions of Beef commercially. Other famous cuts like Rib Eye Steak and Prime Rib are extracted from this portion. It is a relatively expensive cut of meat known for its marbling, rich meaty flavor and tenderness."
+        },
+        "image": "cow_back_ribs.png"
+    },
+    {
+        "id": 4,
+        "nama": {
+            "id": "Babat Alkitab",
+            "en": "Bible Tripe"
+        },
+        "deskripsi":{
+            "id":"Bible Tripe relatif kurang empuk dibandingkan Honeycomb Babat tetapi sama-sama beraroma jika disiapkan menggunakan teknik yang tepat. Ini telah digunakan dalam banyak makanan lezat di seluruh dunia dan perlahan-lahan mendapatkan kembali popularitasnya di Inggris juga.",
+            "en":"Bible Tripe is relatively less tender than Honeycomb Tripe but is equally as flavorful if prepared using the right techniques. It has come to be used in many delicacies all over the world and is slowly gaining back its popularity in Britain as well."
+        },
+        "image": "cow_bible_tripe.png"
+    },
+    {
+        "id": 5,
+        "nama": {
+            "id": "Steak Menit Pisau",
+            "en": "Blade Minute Steak"
+        },
+        "deskripsi":{
+            "id":"The Blade Minute Steak adalah salah satu potongan Daging Sapi yang paling ekonomis. Potongannya tidak terlalu disukai oleh pecinta daging karena memiliki jaringan ikat yang mengalir melalui bagian tengahnya, membuatnya menjadi potongan yang sulit untuk dimasak dan dilunakkan. Ini adalah salah satu dari dua jenis steak pisau; yang lainnya adalah Under Blade Steak, yang bahkan lebih keras.",
+            "en":"The Blade Minute Steak is one of the most economical Beef cuts. The cut is not exactly preferred by meat connoisseurs since it has a connective tissue running through its middle part, making it a tough cut to cook and tenderize. It is one of the two types of blade steaks; the other being the Under Blade Steak, which is even tougher."
+        },
+        "image": "cow_minute_steak.png"
+    },
+    {
+        "id": 6,
+        "nama": {
+            "id": "Pisau Panggang",
+            "en": "Blade Roast"
+        },
+        "deskripsi":{
+            "id":"Seperti namanya, Blade Roast diekstraksi dari tulang belikat sapi. Umumnya, Blade Roast memiliki berat sekitar 3-4 lbs (1,3-1,8kg), dengan ketebalan berkisar antara 3-4 inci (7-10cm). Karena terdiri dari berbagai jenis otot serta jaringan ikat, kelembutan Blade Roast dapat bervariasi dari sedang hingga sangat keras.",
+            "en":"As its name suggests, the Blade Roast is extracted from the shoulder blade of a cow. Generally, a Blade Roast weighs approximately 3-4 lbs (1.3-1.8kg), with its thickness ranging around 3-4 inches (7-10cm). Since it comprises different types of muscles as well as connective tissues, the tenderness of Blade Roast can vary from being moderately to extremely tough."
+        },
+        "image": "cow_blade_roast.png"
+    },
+    {
+        "id": 7,
+        "nama": {
+            "id": "Steak Pisau",
+            "en": "Blade Steak"
+        },
+        "deskripsi":{
+            "id":"Blade Steak diperoleh dengan mengiris Blade Roast. Bisa dari dua jenis, yaitu Top Blade Steak yang diambil dari bagian atas tulang belikat, dan Under Blade Steak yang diambil dari bagian bawah tulang belikat. Itu dihitung di antara bagian daging yang lebih keras.",
+            "en":"Blade Steak is obtained by slicing the Blade Roast. It can be of two types, namely Top Blade Steak, which is taken from the top of the shoulder blade, and Under Blade Steak, which is taken from the part under the shoulder blade. It is counted among the tougher portions of meat."
+        },
+        "image": "cow_blade_steak.png"
+    },
+    {
+        "id": 8,
+        "nama": {
+            "id": "Steak pisau Bone-In",
+            "en": "Bone-In blade steak"
+        },
+        "deskripsi":{
+            "id":"The Bone-In Blade Steak adalah potongan daging sapi murah, ditandai dengan adanya tulang berbentuk Y di tengah porsi daging. Potongan ini jarang digunakan dalam masakan dan sebagian besar ditemukan dalam masakan Australia.",
+            "en":"The Bone-In Blade Steak is an inexpensive Beef cut, marked by the presence of a Y-shaped bone in the middle of the meat portion. This cut is rarely used in cooking and is mostly found in Australian cuisines."
+        },
+        "image": "cow_blade_steak.png"
+    },
+    {
+        "id": 9,
+        "nama": {
+            "id": "Panggang Roast Gulung Tanpa Tulang",
+            "en": "Boneless Rolled Rumpt Roast"
+        },
+        "deskripsi":{
+            "id":"Boneless Rolled Rump Roast dipasarkan oleh pengecer daging dengan mengambil bagian daging dari bagian belakang sapi, menggulungnya dan mengikatnya dengan benang agar bentuknya tetap. Potongan ini termasuk dalam kategori daging yang keras dan perlu dimasak dengan benar untuk memastikan hidangan yang rasanya enak.",
+            "en":"Boneless Rolled Rump Roast is marketed by meat retailers by taking a meat portion from the cow’s hind area, rolling it up and tying it with a twine so that it holds its shape. This cut falls under the tough meat category and needs to be cooked properly to ensure a great tasting dish."
+        },
+        "image":"cow_rolled_roast.png"
+    },
+    {
+        "id": 10,
+        "nama": {
+            "id": "Shino tanpa tulang",
+            "en": "Boneless Shin"
+        },
+        "deskripsi":{
+            "id":"Porsi Daging Sapi yang hemat biaya, Boneless Shin diambil dari bagian depan kaki sapi bagian bawah. Karena ini adalah bagian tubuh hewan yang banyak berolahraga, ini ditandai dengan adanya sejumlah besar jaringan ikat dan dianggap sebagai potongan yang sulit.",
+            "en":"A cost-effective Beef portion, the Boneless Shin is taken from the front part of a cow’s lower leg. Since this is a heavily exercised part of an animal’s body, it is marked by the presence of a large number of connective tissue and is considered a tough cut."
+        },
+        "image":"cow_boneless_shin.png"
+    },
+    {}
+]
