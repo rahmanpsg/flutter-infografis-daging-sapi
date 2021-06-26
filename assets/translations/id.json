@@ -1,0 +1,27 @@
+{
+  "app_title": "Aplikasi Infografis \nPada Daging \nSapi",
+  "menu": {
+    "infografis": "Infografis",
+    "m&f": "Mitos & Fakta",
+    "olahan": "Aneka Olahan",
+    "tentang": "Tentang"
+  },
+  "info_klik": "Silahkan klik pada bagian sapi untuk melihat detail",
+  "infografisModal": {
+    "deskripsi": "Deskripsi",
+    "daging": "Potongan Daging",
+    "resep": "Resep"
+  },
+  "resep": {
+    "bahan": "Bahan :",
+    "cara": "Cara Membuat :",
+    "porsi": "Untuk {} Porsi",
+    "gizi": "NILAI GIZI UNTUK 1 PORSI",
+    "energi": "Energi : {}",
+    "kolestrol": "Kolestrol : {}"
+  },
+  "mulai": "Mulai",
+  "berhenti": "Berhenti",
+  "empty_data": "Belum ada data yang ditambahkan",
+  "kalimat_tts": "Cara memasak {}. Siapkan bahan, {}. Cara membuat : {}. Selesai, terimakasih."
+}

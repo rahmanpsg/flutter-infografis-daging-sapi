@@ -16,6 +16,7 @@ class InfografisBloc extends Bloc<InfografisEvent, InfografisState> {
   Stream<InfografisState> mapEventToState(
     InfografisEvent event,
   ) async* {
+    print(event);
     if (event is InfografisLoaded) {
       yield* _mapLoadDataList(event, state);
     } else if (event is SelectedChange) {
@@ -25,14 +26,15 @@ class InfografisBloc extends Bloc<InfografisEvent, InfografisState> {
 }
 
 Stream<InfografisState> _mapLoadDataList(
-    InfografisLoaded event, InfografisState state) async* {
+  InfografisLoaded event,
+  InfografisState state,
+) async* {
   InfografisService infografisService = InfografisService();
 
   try {
     yield state.copyWith(isLoading: true);
 
     final response = await infografisService.fetchInfografis();
-    print(response.data);
 
     final List<InfografisModel> infografisList = List.generate(
       (response.data as List).length,
@@ -51,7 +53,9 @@ Stream<InfografisState> _mapLoadDataList(
 }
 
 InfografisState _mapChangeSelected(
-    SelectedChange event, InfografisState state) {
+  SelectedChange event,
+  InfografisState state,
+) {
   final int selectedList = event.selected;
   return state.copyWith(selectedList: selectedList, isDataLoaded: false);
 }

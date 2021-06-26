@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infografis_daging_sapi/bloc/infografis_bloc.dart';
+import 'package:infografis_daging_sapi/bloc/resep_bloc.dart';
 import 'package:infografis_daging_sapi/styles/constant.dart';
 import 'package:infografis_daging_sapi/models/sapiCoordinate.dart';
 import 'package:infografis_daging_sapi/src/imageMap.dart';
+import 'package:infografis_daging_sapi/widgets/deskripsiInfografis.dart';
+import 'package:infografis_daging_sapi/widgets/listDagingInfografis.dart';
+import 'package:infografis_daging_sapi/widgets/listResepInfografis.dart';
 import 'package:infografis_daging_sapi/widgets/loading.dart';
-import 'package:shimmer/shimmer.dart';
 
 class InfografisScreen extends StatelessWidget {
   const InfografisScreen({Key? key}) : super(key: key);
@@ -31,9 +35,9 @@ class InfografisScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Infografis",
+          "menu.infografis",
           style: TextStyle(fontWeight: FontWeight.bold),
-        ),
+        ).tr(),
       ),
       backgroundColor: bgColor,
       body: BlocListener<InfografisBloc, InfografisState>(
@@ -62,15 +66,16 @@ class InfografisScreen extends StatelessWidget {
                       color: Colors.white,
                     ),
                     title: Text(
-                      "Silahkan klik pada bagian sapi untuk melihat detail",
+                      "info_klik",
                       style: TextStyle(color: Colors.white, fontSize: 14),
-                    ),
+                    ).tr(),
                     tileColor: primaryColor,
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: ImageMap(
-                        imagePath: 'assets/images/cow-en.png',
+                        imagePath:
+                            "assets/images/cow-${context.locale.toString()}.png",
                         imageSize: Size(1000, 996),
                         onTap: (i) {
                           context.read<InfografisBloc>().add(SelectedChange(i));
@@ -110,7 +115,7 @@ void _modalBottomSheetInfografis(context, Function callback) {
                   ? 10
                   : infografisState.selectedList);
 
-      final String language = "id";
+      final String language = bc.locale.toString();
 
       return DefaultTabController(
         length: 3,
@@ -127,98 +132,31 @@ void _modalBottomSheetInfografis(context, Function callback) {
               ),
               tabs: <Widget>[
                 Tab(
-                  text: "Deskripsi",
+                  text: "infografisModal.deskripsi".tr(),
                 ),
                 Tab(
-                  text: "Potongan Daging",
+                  text: "infografisModal.daging".tr(),
                 ),
                 Tab(
-                  text: "Resep",
+                  text: "infografisModal.resep".tr(),
                 )
               ],
             ),
             Expanded(
-              child: TabBarView(
-                children: [
-                  ListView(
-                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                    children: <Widget>[
-                      Center(
-                        child: Text(
-                          infografisData.nama[language],
-                          style: TextStyle(fontSize: 20),
-                        ),
-                      ),
-                      Divider(),
-                      Text(infografisData.deskripsi[language]["ket"]),
-                      Divider(),
-                      SizedBox(height: 10),
-                      _contentDeskripsi(
-                        "Warna",
-                        infografisData.deskripsi[language]["warna"],
-                      ),
-                      SizedBox(height: 10),
-                      _contentDeskripsi(
-                        "Aroma",
-                        infografisData.deskripsi[language]["aroma"],
-                      ),
-                      SizedBox(height: 10),
-                      _contentDeskripsi(
-                        "Penampakan",
-                        infografisData.deskripsi[language]["penampakan"],
-                      ),
-                      SizedBox(height: 10),
-                      _contentDeskripsi(
-                        "Kekenyalan",
-                        infografisData.deskripsi[language]["kekenyalan"],
-                      ),
-                    ],
-                  ),
-                  // _shimmerLoading(),
-                  ListView.builder(
-                    itemCount: 5,
-                    padding: EdgeInsets.symmetric(vertical: 10),
-                    itemBuilder: (context, index) {
-                      return Card(
-                        margin: EdgeInsets.symmetric(
-                          vertical: 3,
-                          horizontal: 15,
-                        ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20.0),
-                        ),
-                        child: Material(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
-                          child: InkWell(
-                            onTap: () => print(index),
-                            borderRadius: BorderRadius.circular(20),
-                            splashColor: bgColor,
-                            child: ListTile(
-                              leading: CircleAvatar(
-                                radius: 25,
-                                backgroundColor: Colors.transparent,
-                                backgroundImage: AssetImage(
-                                    "assets/images/daging/cow_blade_roast.png"),
-                              ),
-                              title: Text('Arm Roast'),
-                              subtitle: Text(
-                                'Counted among the toughest Primal Beef cuts, Arm Roast has been regarded as one of the leanest portions of Beef by the United States Department of Agriculture (USDA). In fact, this low-priced Beef cut is considered a healthy choice due to its minimal cholestrol content.',
-                              ),
-                            ),
-                          ),
-                        ),
-                      );
-                    },
-                  ),
-                  ListView(
-                    children: <Widget>[
-                      Text((infografisState is InfografisLoaded)
-                          ? infografisState.infografisList.toString()
-                          : ""),
-                    ],
-                  ),
-                ],
+              child: BlocProvider(
+                create: (context) => ResepBloc()
+                  ..add(ResepLoaded(infografisState.selectedList + 1)),
+                child: TabBarView(
+                  children: [
+                    DeskripsiInfografis(
+                      infografisData: infografisData,
+                      language: language,
+                    ),
+                    // _shimmerLoading(),
+                    ListDagingInfografis(),
+                    ListResepInfografis(),
+                  ],
+                ),
               ),
             )
           ],
@@ -226,63 +164,4 @@ void _modalBottomSheetInfografis(context, Function callback) {
       );
     },
   ).whenComplete(() => callback());
-}
-
-Widget _shimmerLoading() {
-  return Shimmer.fromColors(
-    baseColor: Colors.white,
-    highlightColor: bgColor,
-    child: ListView.builder(
-      itemCount: 5,
-      itemBuilder: (context, index) {
-        return Card(
-          margin: EdgeInsets.symmetric(
-            vertical: 3,
-            horizontal: 15,
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20.0),
-          ),
-          child: Material(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(20),
-            child: InkWell(
-              onTap: () => print(index),
-              borderRadius: BorderRadius.circular(20),
-              splashColor: bgColor,
-              child: ListTile(
-                leading: CircleAvatar(
-                  radius: 30,
-                  backgroundImage: AssetImage("assets/images/olahan-menu.png"),
-                ),
-                title: Text('The Enchanted Nightingale'),
-                subtitle: Text(
-                  'Music by Julie Gable. Lyrics by Sidney Stein  \nMusic by Julie Gable. Lyrics by Sidney SteinMusic by Julie Gable. Lyrics by Sidney SteinMusic by Julie Gable. Lyrics by Sidney Stein.',
-                ),
-              ),
-            ),
-          ),
-        );
-      },
-    ),
-  );
-}
-
-Widget _contentDeskripsi(String title, String content) {
-  return Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: [
-      Row(
-        children: [
-          Expanded(child: Divider()),
-          SizedBox(width: 5),
-          Text(title),
-          SizedBox(width: 5),
-          Expanded(child: Divider()),
-        ],
-      ),
-      Text(content),
-      Divider()
-    ],
-  );
 }

@@ -9,3 +9,8 @@ const bgColor = Color(0xFFF1F3DE);
 // Text Style
 const primaryStyle =
     TextStyle(fontFamily: 'Gothic', fontSize: 14, color: Colors.white);
+const secondaryStyle = TextStyle(
+    fontFamily: 'Gothic',
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+    color: primaryColor);

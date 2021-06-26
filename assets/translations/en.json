@@ -1,0 +1,27 @@
+{
+  "app_title": "Infographics \nApplications \nOn Beef",
+  "menu": {
+    "infografis": "Infographics",
+    "m&f": "Myths & Facts",
+    "olahan": "Various Processed",
+    "tentang": "About"
+  },
+  "info_klik": "Please click on the cow section for details",
+  "infografisModal": {
+    "deskripsi": "Description",
+    "daging": "Slice of Meat",
+    "resep": "Recipe"
+  },
+  "resep": {
+    "bahan": "Materials :",
+    "cara": "How to make :",
+    "porsi": "For {} Portions",
+    "gizi": "NUTRITIONAL VALUE FOR 1 SERVING",
+    "energi": "Energy : {}",
+    "kolestrol": "Cholesterol : {}"
+  },
+  "mulai": "Play",
+  "berhenti": "Stop",
+  "empty_data": "No data added yet",
+  "kalimat_tts": "How to cook {}. Prepare materials, {}. How to make : {}. Done, thank you."
+}

@@ -22,11 +22,12 @@ class InfografisState extends Equatable {
       bool? isDataLoaded,
       ErrorHandlingModel? error}) {
     return InfografisState(
-        infografisList: infografisList ?? this.infografisList,
-        selectedList: selectedList ?? this.selectedList,
-        isLoading: isLoading ?? this.isLoading,
-        isDataLoaded: isDataLoaded ?? this.isDataLoaded,
-        error: error ?? this.error);
+      infografisList: infografisList ?? this.infografisList,
+      selectedList: selectedList ?? this.selectedList,
+      isLoading: isLoading ?? this.isLoading,
+      isDataLoaded: isDataLoaded ?? this.isDataLoaded,
+      error: error ?? this.error,
+    );
   }
 
   @override

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class HeaderHome extends StatelessWidget {
   const HeaderHome({Key? key}) : super(key: key);
@@ -39,7 +40,7 @@ class HeaderHome extends StatelessWidget {
                     top: 30,
                     left: 195,
                     child: Text(
-                      "Aplikasi Infografis \nPada Daging \nSapi",
+                      "app_title",
                       style: TextStyle(
                         fontSize: 30,
                         color: Colors.white,
@@ -51,7 +52,7 @@ class HeaderHome extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
+                    ).tr(),
                   ),
                   Container(),
                 ],
