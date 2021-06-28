@@ -20,8 +20,19 @@
     "energi": "Energy : {}",
     "kolestrol": "Cholesterol : {}"
   },
+  "tentang": {
+    "judul": "Infographics Applications On Android Based Beef",
+    "info": "Infographics are information media that are presented in the form of text, and combined with several visual elements such as images, illustrations, graphics, and typography.",
+    "pembimbing": "Supervisor {}",
+    "penguji": "Examiner {}"
+  },
   "mulai": "Play",
   "berhenti": "Stop",
   "empty_data": "No data added yet",
-  "kalimat_tts": "How to cook {}. Prepare materials, {}. How to make : {}. Done, thank you."
+  "error_data": "Unable to connect to server",
+  "kalimat_tts": "How to cook {}. Prepare materials, {}. How to make : {}. Done, thank you.",
+  "cari": "Search",
+  "tutup": "Closed",
+  "mitos": "MYTH",
+  "fakta": "FACT"
 }

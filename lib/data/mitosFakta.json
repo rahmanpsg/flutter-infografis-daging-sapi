@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "mitos": {
+      "imageUrl": "https://media.newyorker.com/photos/5f83e2a628c87358b3ee9689/1:1/w_1925,h_1925,c_limit/PG.43_R6048RD.jpg",
+      "id": "Tidak halal",
+      "en": "Not permitted"
+    },
+    "fakta": {
+      "imageUrl": "https://statics.indozone.news/content/2020/08/01/M7sDqdQ/t_5f2573f92ad21_700.jpg",
+      "id": "Disembelih sesuai syariah Islam oleh penyembelih muslim bersertifikat. Sapi diperlakukan dengan baik dan sesuai dengan animal welare practices (kesejahteraan hewan).",
+      "en": "Slaughtered according to Islamic sharia by a certified Muslim slaughterer. Cows are treated well and in accordance with animal welfare practices (animal welfare)."
+    }
+  },
+  {
+    "id": 2,
+    "mitos": {
+      "imageUrl": "https://png.pngtree.com/png-vector/20191030/ourlarge/pngtree-rotten-piece-of-meat-icon-cartoon-style-png-image_1910166.jpg",
+      "id": "Tidak segar karena sudah didingankan",
+      "en": "Not fresh because it has been refrigerated"
+    },
+    "fakta": {
+      "imageUrl": "https://w7.pngwing.com/pngs/426/818/png-transparent-domestic-pig-bacon-pork-fresh-frozen-pork-food-cartoon-fresh-juice-thumbnail.png",
+      "id": "Daging dijamin segar karena setelah pemotongan langsung dikemas dalam bungkus kedap udara.",
+      "en": "The meat is guaranteed fresh because after cutting it is immediately packaged in an airtight wrapper."
+    }
+  },
+  {
+    "id": 3,
+    "mitos": {
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE6ZB3b6d9MYnfZj6Ong2VC5buIWbNvEk7iQ&usqp=CAU",
+      "id": "Penyebab kolesterol",
+      "en": "Causes of cholesterol"
+    },
+    "fakta": {
+      "imageUrl": "https://media.gettyimages.com/illustrations/smiling-steak-cartoon-mascot-character-illustration-id504114872?s=2048x2048",
+      "id": "Yang menyebabkan kolesterol adalah cara memasak yang salah.",
+      "en": "What causes cholesterol is the wrong way of cooking."
+    }
+  },
+  {
+    "id": 4,
+    "mitos": {
+      "imageUrl": "https://e7.pngegg.com/pngimages/176/836/png-clipart-bubble-bath-to-wash-cows-hand-painted-cartoon.png",
+      "id": "Harus dicuci dulu sebelum dimasak",
+      "en": "Must be washed before cooking"
+    },
+    "fakta": {
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP8s1kGn-hWrpM_0cDDhhIdAtc38SDc6_q-RO_E4OhcaKXYsDX9FLcqA0oqYI1aOgdkmvvyI9Y-uc&usqp=CAU",
+      "id": "Tidak perlu dicuci karena sudah bersih sejal sebelum dikemas. Justru dengan mencucinya akan memicu pertumbuhan bakteri.",
+      "en": "There is no need to wash it because it is already clean before being packaged. Precisely by washing it will trigger the growth of bacteria."
+    }
+  },
+  {
+    "id": 5,
+    "mitos": {
+      "imageUrl": "https://thumbs.dreamstime.com/z/bloody-steak-cartoon-isolated-white-vector-illustration-background-130981058.jpg",
+      "id": "Cairan yang keluar dari daging sapi Australia adalah darah",
+      "en": "The liquid that comes out of Australian beef is blood"
+    },
+    "fakta": {
+      "imageUrl": "https://png.pngtree.com/png-clipart/20190921/original/pngtree-juicy-cartoon-steak-illustration-png-image_4765014.jpg",
+      "id": "Cairan yang keluardari daging sapi adalah juicy atau sari daging.",
+      "en": "The liquid that comes out of the beef is juicy or the juice of the meat."
+    }
+  },
+
+  {}
+]

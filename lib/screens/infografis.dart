@@ -3,9 +3,12 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infografis_daging_sapi/bloc/infografis_bloc.dart';
 import 'package:infografis_daging_sapi/bloc/resep_bloc.dart';
+import 'package:infografis_daging_sapi/models/daging_models.dart';
+import 'package:infografis_daging_sapi/models/infografis_models.dart';
 import 'package:infografis_daging_sapi/styles/constant.dart';
 import 'package:infografis_daging_sapi/models/sapiCoordinate.dart';
 import 'package:infografis_daging_sapi/src/imageMap.dart';
+import 'package:infografis_daging_sapi/widgets/alertError.dart';
 import 'package:infografis_daging_sapi/widgets/deskripsiInfografis.dart';
 import 'package:infografis_daging_sapi/widgets/listDagingInfografis.dart';
 import 'package:infografis_daging_sapi/widgets/listResepInfografis.dart';
@@ -16,8 +19,21 @@ class InfografisScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    List<InfografisModel> infografisList =
+        context.select<InfografisBloc, List<InfografisModel>>(
+            (infografisBloc) => infografisBloc.state.infografisList);
+    List<DagingModel> dagingList =
+        context.select<InfografisBloc, List<DagingModel>>(
+            (infografisBloc) => infografisBloc.state.dagingList);
+
+    bool isDataLoaded = context.select<InfografisBloc, bool>(
+        (infografisBloc) => infografisBloc.state.isDataLoaded);
+
     int selectedList = context.select<InfografisBloc, int>(
         (infografisBloc) => infografisBloc.state.selectedList);
+
+    if (!isDataLoaded && infografisList.length <= 0)
+      context.read<InfografisBloc>().add(InfografisLoaded());
 
     final List<Color> colors = List.generate(
       points.length,
@@ -42,8 +58,12 @@ class InfografisScreen extends StatelessWidget {
       backgroundColor: bgColor,
       body: BlocListener<InfografisBloc, InfografisState>(
         listener: (context, state) {
-          if (state.isLoading) {
+          print(state.error);
+          if (state.isLoading && !state.isDataLoaded) {
             Navigator.of(context).push(Loading());
+          } else if (!state.error.status && !state.isDataLoaded) {
+            Navigator.pop(context);
+            alertError(context);
           } else if (!state.isLoading &&
               state.isDataLoaded &&
               !ModalRoute.of(context)!.isCurrent) {
@@ -78,12 +98,22 @@ class InfografisScreen extends StatelessWidget {
                             "assets/images/cow-${context.locale.toString()}.png",
                         imageSize: Size(1000, 996),
                         onTap: (i) {
-                          context.read<InfografisBloc>().add(SelectedChange(i));
-                          _modalBottomSheetInfografis(
-                              context,
-                              () => context
-                                  .read<InfografisBloc>()
-                                  .add(SelectedChange(-1)));
+                          print(infografisList);
+                          if (infografisList.length > 0) {
+                            context
+                                .read<InfografisBloc>()
+                                .add(SelectedChange(i));
+                            context
+                                .read<InfografisBloc>()
+                                .add(FilterDagingList(dagingList, i + 1));
+                            _modalBottomSheetInfografis(
+                                context,
+                                () => context
+                                    .read<InfografisBloc>()
+                                    .add(SelectedChange(-1)));
+                          } else {
+                            alertError(context);
+                          }
                         },
                         regions: polygonRegions,
                         regionColors: colors),

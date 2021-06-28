@@ -16,4 +16,12 @@ class InfografisService extends SupabaseService<InfografisModel> {
         .order("id", ascending: true)
         .execute();
   }
+
+  Future<PostgrestResponse> fetchDaging() async {
+    return await supabase
+        .from("daging")
+        .select("*")
+        .order("id", ascending: true)
+        .execute();
+  }
 }

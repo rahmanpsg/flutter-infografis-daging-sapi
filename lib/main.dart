@@ -2,9 +2,10 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:infografis_daging_sapi/bloc/infografis_bloc.dart';
-import 'package:infografis_daging_sapi/bloc/olahan_bloc.dart';
-import 'package:infografis_daging_sapi/styles/constant.dart';
+import 'bloc/infografis_bloc.dart';
+import 'bloc/olahan_bloc.dart';
+import 'bloc/mitosfakta_bloc.dart';
+import 'styles/constant.dart';
 import 'screens/home.dart';
 import 'screens/infografis.dart';
 import 'screens/mitosFakta.dart';
@@ -39,10 +40,13 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => InfografisBloc()..add(InfografisLoaded()),
+          create: (context) => InfografisBloc(),
         ),
         BlocProvider(
           create: (context) => OlahanBloc()..add(OlahanLoaded()),
+        ),
+        BlocProvider(
+          create: (context) => MitosFaktaBloc()..add(MitosFaktaLoaded()),
         ),
       ],
       child: MaterialApp(

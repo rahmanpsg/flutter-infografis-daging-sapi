@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.infografis_daging_sapi">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="infografis_daging_sapi"
+        android:label="Infografis Daging Sapi"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

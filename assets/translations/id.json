@@ -20,8 +20,19 @@
     "energi": "Energi : {}",
     "kolestrol": "Kolestrol : {}"
   },
+  "tentang": {
+    "judul": "Aplikasi Infografis Pada Daging Sapi Berbasis Android",
+    "info": "Infografis adalah media informasi yang disajikan dalam bentuk teks, serta dipadukan dengan beberapa elemen visual seperti gambar, ilustrasi, grafik, dan tipografi.",
+    "pembimbing": "Pembimbing {}",
+    "penguji": "Penguji {}"
+  },
   "mulai": "Mulai",
   "berhenti": "Berhenti",
   "empty_data": "Belum ada data yang ditambahkan",
-  "kalimat_tts": "Cara memasak {}. Siapkan bahan, {}. Cara membuat : {}. Selesai, terimakasih."
+  "error_data": "Tidak dapat terhubung ke server",
+  "kalimat_tts": "Cara memasak {}. Siapkan bahan, {}. Cara membuat : {}. Selesai, terimakasih.",
+  "cari": "Cari",
+  "tutup": "Tutup",
+  "mitos": "MITOS",
+  "fakta": "FAKTA"
 }

@@ -10,7 +10,7 @@ class Loading extends ModalRoute<void> {
   bool get opaque => false;
 
   @override
-  bool get barrierDismissible => true;
+  bool get barrierDismissible => false;
 
   @override
   Color get barrierColor => Colors.black.withOpacity(0.5);
@@ -44,7 +44,7 @@ class Loading extends ModalRoute<void> {
           color: bgColor,
         ),
         Text(
-          "Loading...",
+          "Loading Data..",
           style: primaryStyle,
         ),
       ],

@@ -1,785 +1,1089 @@
 [
-  {
-    "id": 1,
-    "nama": { "id": "Lengan panggang.", "en": "Arm Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_blade_roast.png",
-    "deskripsi": {
-      "id": "Terhitung di antara pemotongan daging sapi primal terberat, Arm Roast telah dianggap sebagai salah satu bagian dari Daging Sapi Leanest oleh Departemen Pertanian Amerika Serikat (USDA). Bahkan, potongan daging sapi dengan harga murah ini dianggap sebagai pilihan sehat karena kandungan cholestrol minimalnya.",
-      "en": "Counted among the toughest Primal Beef cuts, Arm Roast has been regarded as one of the leanest portions of Beef by the United States Department of Agriculture (USDA). In fact, this low-priced Beef cut is considered a healthy choice due to its minimal cholestrol content."
-    }
-  },
-  {
-    "id": 2,
-    "nama": { "id": "Lengan steak.", "en": "Arm Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_bone_steak.png",
-    "deskripsi": {
-      "id": "Dikategorikan sebagai steak yang tangguh, steak lengan diekstraksi dari pemotongan panggang pot lengan dengan memotongnya menjadi irisan sekitar ketebalan ¾ inci (2cm). Sama seperti lengan panggang, steak lengan adalah bagian ramping daging dan dianggap sebagai pilihan sehat untuk pengamat diet.",
-      "en": "Categorized as a tough steak, the Arm Steak is extracted from the Arm Pot Roast Cut by cutting it into slices of around ¾ inch (2cm) thickness. Much like the Arm Roast, the Arm Steak is a lean portion of meat and is considered a healthy choice for diet watchers."
-    }
-  },
-  {
-    "id": 3,
-    "nama": { "id": "Tulang rusuk kembali", "en": "Back Ribs" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_back_ribs.png",
-    "deskripsi": {
-      "id": "Iga kembali daging sapi membentuk potongan daging sapi primal yang merupakan salah satu bagian paling dalam permintaan daging sapi secara komersial. Potongan terkenal lainnya seperti iga steak mata dan tulang rusuk utama diekstraksi dari porsi ini. Ini adalah potongan daging yang relatif mahal yang dikenal karena rasanya, rasa dan kelembutannya yang raksasa.",
-      "en": "Beef Back Ribs form a primal cut of Beef that are among the most in-demand portions of Beef commercially. Other famous cuts like Rib Eye Steak and Prime Rib are extracted from this portion. It is a relatively expensive cut of meat known for its marbling, rich meaty flavor and tenderness."
-    }
-  },
-  {
-    "id": 4,
-    "nama": { "id": "Tinggal Alkitab", "en": "Bible Tripe" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_bible_tripe.png",
-    "deskripsi": {
-      "id": "Tripe Alkitab relatif kurang empuk daripada Honeycomb Tripe tetapi sama-sama beraroma jika disiapkan menggunakan teknik yang tepat. Itu datang untuk digunakan dalam banyak hidangan di seluruh dunia dan perlahan-lahan mendapatkan kembali popularitasnya di Inggris juga.",
-      "en": "Bible Tripe is relatively less tender than Honeycomb Tripe but is equally as flavorful if prepared using the right techniques. It has come to be used in many delicacies all over the world and is slowly gaining back its popularity in Britain as well."
-    }
-  },
-  {
-    "id": 5,
-    "nama": { "id": "Steak bilah menit", "en": "Blade Minute Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
-    "deskripsi": {
-      "id": "Steak Bilah Menit adalah salah satu pemotongan daging sapi paling ekonomis. Potongan tidak disukai oleh penikmat daging karena memiliki jaringan ikat yang mengalir melalui bagian tengahnya, menjadikannya pemotongan yang sulit untuk dimasak dan ditusuk. Ini adalah salah satu dari dua jenis steak blade; Yang lain menjadi steak bilah yang di bawah, yang bahkan lebih sulit.",
-      "en": "The Blade Minute Steak is one of the most economical Beef cuts. The cut is not exactly preferred by meat connoisseurs since it has a connective tissue running through its middle part, making it a tough cut to cook and tenderize. It is one of the two types of blade steaks; the other being the Under Blade Steak, which is even tougher."
-    }
-  },
-  {
-    "id": 6,
-    "nama": { "id": "Blade Roast.", "en": "Blade Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
-    "deskripsi": {
-      "id": "Seperti namanya, bilah panggang diekstraksi dari bilah bahu seekor sapi. Secara umum, panggang pisau berbobot sekitar 3-4 lbs (1.3-1,8kg), dengan ketebalannya mulai sekitar 3-4 inci (7-10cm). Karena terdiri dari berbagai jenis otot serta jaringan ikat, kelembutan panggang pisau dapat bervariasi dari cukup tangguh.",
-      "en": "As its name suggests, the Blade Roast is extracted from the shoulder blade of a cow. Generally, a Blade Roast weighs approximately 3-4 lbs (1.3-1.8kg), with its thickness ranging around 3-4 inches (7-10cm). Since it comprises different types of muscles as well as connective tissues, the tenderness of Blade Roast can vary from being moderately to extremely tough."
-    }
-  },
-  {
-    "id": 7,
-    "nama": { "id": "Blade steak.", "en": "Blade Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_blade_steak.png",
-    "deskripsi": {
-      "id": "Blade Steak diperoleh dengan mengiris bilah panggang. Ini bisa terdiri dari dua jenis, yaitu steak bilah teratas, yang diambil dari atas bilah bahu, dan di bawah Steak Blade, yang diambil dari bagian di bawah bilah bahu. Itu dihitung di antara bagian daging yang lebih keras.",
-      "en": "Blade Steak is obtained by slicing the Blade Roast. It can be of two types, namely Top Blade Steak, which is taken from the top of the shoulder blade, and Under Blade Steak, which is taken from the part under the shoulder blade. It is counted among the tougher portions of meat."
-    }
-  },
-  {
-    "id": 8,
-    "nama": { "id": "Steak bilah tulang", "en": "Bone-In blade steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_y_bone_steak.png",
-    "deskripsi": {
-      "id": "Steak tulang-in bilah adalah potongan daging sapi yang murah, ditandai dengan adanya tulang berbentuk Y di tengah bagian daging. Potongan ini jarang digunakan dalam memasak dan sebagian besar ditemukan di masakan Australia.",
-      "en": "The Bone-In Blade Steak is an inexpensive Beef cut, marked by the presence of a Y-shaped bone in the middle of the meat portion. This cut is rarely used in cooking and is mostly found in Australian cuisines."
-    }
-  },
-  {
-    "id": 9,
-    "nama": { "id": "Steak strip tulang", "en": "Bone-in Strip Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_shell_steak.png",
-    "deskripsi": {
-      "id": "Steak strip tulang dihitung di antara pemotongan daging sapi paling banyak, yang mencerminkan baik dalam label harga tinggi dan popularitasnya di antara para penikmat makanan. Ini adalah sepotong daging yang marmer dengan lemak sekitarnya juga. Untuk alasan ini, potongan ini dianggap sebagai pilihan yang sangat baik untuk memanggang dan memanggang.",
-      "en": "The Bone-in Strip Steak is counted among the most premium of Beef cuts, which reflects both in its high price tag and its popularity among food connoisseurs. This is a well-marbled piece of meat with some surrounding fat as well. For this reason, this cut is considered an excellent choice for grilling and barbecuing."
-    }
-  },
-  {
-    "id": 10,
-    "nama": {
-      "id": "Panggang Rump Gulung Tanpa Boneless",
-      "en": "Boneless Rolled Rump Roast"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rolled_roast.png",
-    "deskripsi": {
-      "id": "Panggang Rump Gulungan tanpa tulang dipasarkan oleh pengecer daging dengan mengambil bagian daging dari daerah belakang sapi, memutarnya dan mengikatnya dengan benang sehingga memegang bentuknya. Potongan ini jatuh di bawah kategori daging yang sulit dan perlu dimasak dengan benar untuk memastikan hidangan yang enak.",
-      "en": "Boneless Rolled Rump Roast is marketed by meat retailers by taking a meat portion from the cow’s hind area, rolling it up and tying it with a twine so that it holds its shape. This cut falls under the tough meat category and needs to be cooked properly to ensure a great tasting dish."
-    }
-  },
-  {
-    "id": 11,
-    "nama": { "id": "Shin tanpa tulang", "en": "Boneless Shin" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_boneless_shin.png",
-    "deskripsi": {
-      "id": "Bagian daging sapi yang hemat biaya, Shin tanpa tulang diambil dari bagian depan kaki bagian bawah sapi. Karena ini adalah bagian yang banyak berolahraga dari tubuh binatang, itu ditandai dengan adanya sejumlah besar jaringan ikat dan dianggap sebagai pemotongan yang sulit.",
-      "en": "A cost-effective Beef portion, the Boneless Shin is taken from the front part of a cow’s lower leg. Since this is a heavily exercised part of an animal’s body, it is marked by the presence of a large number of connective tissue and is considered a tough cut."
-    }
-  },
-  {
-    "id": 12,
-    "nama": { "id": "Panggang Bottom-Round", "en": "Bottom-Round Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
-    "deskripsi": {
-      "id": "Panggang Bottom-Round adalah potongan ideal bagi mereka yang mencari potong daging sapi yang lebih murah dan rendah lemak. Meski tidak beraroma sebanyak pemotongan daging sapi lainnya, porsi ini dapat digunakan untuk menyiapkan makanan lezat dengan membumbui dengan baik dan kemudian memasaknya menggunakan teknik memasak.",
-      "en": "Bottom-Round Roast is the ideal cut for those who are looking for a less expensive and low fat cut of Beef. Although not as flavorful as many other Beef cuts, this portion can be used to prepare delicious meals by seasoning it well and then cooking it using the cooking techniques."
-    }
-  },
-  {
-    "id": 13,
-    "nama": { "id": "Otak", "en": "Brain" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brain.png",
-    "deskripsi": {
-      "id": "Otak adalah potongan daging sapi terpaksa, yang umumnya digunakan dalam masakan internasional. Ini adalah sumber asam lemak omega-3 yang kaya tetapi juga tinggi kolesterol. Konsumsi organ seperti mousse ini telah berkurang secara signifikan karena kadar kolesterolnya yang tinggi serta ketakutan akan mengontrak ensefalopati spongiform bin (penyakit sapi gila), yang dapat menyebar melalui jaringan saraf hewan sapi yang terkena dampak.",
-      "en": "Brain is a popular offal cut of Beef, which is commonly used in international cuisines. It is a rich source of Omega-3 fatty acids but is also high in cholesterol. The consumption of this mousse-like organ has reduced significantly due to its high cholesterol levels as well as fears of contracting Bovine Spongiform Encephalopathy (mad cow disease), which can spread through nervous tissues of affected bovine animals."
-    }
-  },
-  {
-    "id": 14,
-    "nama": { "id": "Pemotongan pertama brisket", "en": "Brisket First Cut" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brisket_cut.png",
-    "deskripsi": {
-      "id": "Potongan pertama adalah salah satu dari dua jenis pemotongan yang diekstraksi dari payudara. Ini adalah bagian dari brisket daging sapi yang tipis dan relatif lebih ramping.",
-      "en": "The First Cut is one of the two types of cuts that are extracted from the breast. It is the thinly and relatively leaner portion of  Beef Brisket."
-    }
-  },
-  {
-    "id": 15,
-    "nama": { "id": "Pemotongan depan brisket", "en": "Brisket Front Cut" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brisket_cut.png",
-    "deskripsi": {
-      "id": "Potongan depan adalah bagian lain dari brisket, yang diambil setelah melepas potongan pertama. Ini lebih tebal dan lebih lembab daripada potongan pertama karena kehadiran jumlah lemak yang lebih besar dalam serat daging. Ini memiliki bentuk runcing dan semakin ekonomis dari dua pemotongan brisket.",
-      "en": "The Front Cut is the other part of the Brisket, which is taken after removing the First Cut. It is thicker and more moist than the First Cut due to the presence of a greater amount of fat within the meat fibers. It has a pointed shape and is the more economical of the two Brisket cuts."
-    }
-  },
-  {
-    "id": 16,
-    "nama": { "id": "Butt Fillet.", "en": "Butt Fillet" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
-    "deskripsi": {
-      "id": "Butt filet adalah potongan daging sapi yang lembut, yang diambil dari sirloin. Potongan ini memiliki tingkat lemak yang relatif lebih rendah dan sedikit mantra, karena yang dihitung sebagai bagian dadu daging.",
-      "en": "Butt Filet is a tender cut of Beef, which is taken from the Sirloin. This cut has relatively lower levels of fat and little marbling on it, due to which it is counted as a lean portion of meat."
-    }
-  },
-  {
-    "id": 17,
-    "nama": { "id": "Pipi", "en": "Cheek" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_cheek.png",
-    "deskripsi": {
-      "id": "Seperti namanya jelas mencerminkan, potongan pipi diambil dari otot-otot wajah sapi. Karena Cows merumput beberapa kali sehari, ini adalah bagian yang menerima banyak latihan fisik, mengakibatkan otot-otot yang dikeraskan. Berat khas pipi berkisar di sekitar ¾ -1 lbs (340-450g).",
-      "en": "As its name clearly reflects, the Cheek cut is taken from the facial muscles of a cow. Since cows graze several times a day, this is a part that receives a great deal of physical exercise, resulting in toughened up muscles. The typical weight of a Cheek ranges around ¾ -1 lbs (340-450g)."
-    }
-  },
-  {
-    "id": 18,
-    "nama": { "id": "Membuang", "en": "Chuck" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_steak.png",
-    "deskripsi": {
-      "id": "Chuck adalah potongan daging sapi primal dengan harga murah, yang dikenal karena ketangguhannya karena kehadiran sejumlah besar jaringan ikat di seluruh porsi dagingnya. Karena kaya lemak, itu dianggap sebagai pilihan yang baik untuk membuat daging sapi darat.",
-      "en": "Chuck is a low-priced primal cut of Beef, which is known for its toughness due to the presence of a large number of connective tissues throughout its meat portion. Since it is rich in fat, it is considered to be a good option for making Ground Beef."
-    }
-  },
-  {
-    "id": 19,
-    "nama": { "id": "Chuck 7-Bone Pot Roast", "en": "Chuck 7-Bone Pot Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_seven_bone_roast.png",
-    "deskripsi": {
-      "id": "Menjadi sebagian dari chuck, potongan poast pot 7-tulang dikenal karena ketangguhannya. Potongan diidentifikasi oleh kehadiran tulang, berbentuk seperti digit '7', yang memotongnya secara melintang.",
-      "en": "Being a portion of the Chuck, the 7-Bone Pot Roast cut is known for its toughness. The cut is identified by the presence of a bone, shaped like the digit ‘7’, which cuts through it transversely."
-    }
-  },
-  {
-    "id": 20,
-    "nama": { "id": "Steak 7-Bone Chuck", "en": "Chuck 7-Bone Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_seven_bone_steak.png",
-    "deskripsi": {
-      "id": "Steak chuck 7-bone diiris dari panggang chuck 7-bone, dengan ketebalannya mulai dari ½ hingga ¾ inci (1,5-2 cm). Karena diambil dari chuck, steak 7-bone dianggap sebagai pemotongan yang sulit.",
-      "en": "The Chuck 7-Bone Steak is sliced from a Chuck 7-Bone Roast, with its thickness ranging from ½ to ¾ of an inch (1.5-2cm). Since it is taken from the Chuck, the 7-Bone Steak is considered to be a tough cut."
-    }
-  },
-  {
-    "id": 21,
-    "nama": { "id": "Chuck Eye Roast.", "en": "Chuck Eye Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
-    "deskripsi": {
-      "id": "Chuck Eye Roast adalah potongan yang relatif tinggi pada kelembutan daripada bagian chuck lainnya tetapi masih dianggap sebagai potongan daging yang sulit karena kehadiran sejumlah besar jaringan ikat yang tersebar di seluruh seratnya. Ini mengandung sejumlah besar lemak, yang menambah rasa dan ju.",
-      "en": "The Chuck Eye Roast is a cut that is comparatively high on tenderness than other Chuck portions but is still considered to be a tough meat cut due to the presence of a considerable amount of connective tissues dispersed throughout its fiber. It contains a large amount of fat, which adds to its flavor and juiciness."
-    }
-  },
-  {
-    "id": 22,
-    "nama": { "id": "Chuck Eye Steak.", "en": "Chuck Eye Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
-    "deskripsi": {
-      "id": "Steak mata chuck dihasilkan ketika daging panggang Chuck dipotong menjadi irisan. Ini memiliki kesamaan dengan steak iga tetapi relatif lebih keras dan rendah rasa. Ini adalah pengganti hemat biaya untuk steak eye eye dalam banyak hidangan.",
-      "en": "The Chuck Eye Steak is yielded when the Chuck Eye Roast is cut into slices. It bears similarity to the Rib Eye Steak but is comparatively tougher and low on flavor. It is a cost effective substitute for the Rib Eye Steak in many dishes."
-    }
-  },
-  {
-    "id": 23,
-    "nama": { "id": "Chuck Short Ribs.", "en": "Chuck Short Ribs" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_ribs.png",
-    "deskripsi": {
-      "id": "Meskipun mereka tidak empuk atau umumnya digunakan sebagai tulang rusuk pendek sapi lainnya, tulang rusuk pendek chuck masih disukai oleh mereka yang lebih suka porsi daging ramping namun beraroma. Meskipun tulang rusuk mengandung tulang, mereka dapat didebit dalam bentuk filet.",
-      "en": "Although they are not as tender or commonly used as the other Beef Short Ribs, Chuck Short Ribs are still well-liked by those who prefer lean yet flavorful portions of meat. Even though the ribs contain bones, they can be deboned in the form of filets."
-    }
-  },
-  {
-    "id": 24,
-    "nama": { "id": "Coulotte steak.", "en": "Coulotte Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_coulotte_steak.png",
-    "deskripsi": {
-      "id": "Jarang untuk Coulotte Steaks tersedia untuk dibeli di pengecer daging. Potongan diekstraksi dari sirloin dan diketahui kaya rasa dan tekstur. Ini tidak memiliki kelembutan karena sedikit marmer.",
-      "en": "It is rare for Coulotte Steaks to be available for purchase at meat retailers. The cut is extracted from the Sirloin and is known to be rich in taste and texture. It lacks tenderness due to little marbling."
-    }
-  },
-  {
-    "id": 25,
-    "nama": { "id": "Iga chuck gaya negara", "en": "Country-style Chuck Ribs" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_ribs.png",
-    "deskripsi": {
-      "id": "Iga chuck bergaya negara dikenal karena rasa dan sukulennya yang kaya. Potongan ini diisi dengan jaringan ikat dan lebih putih dari tulang rusuk pendek.",
-      "en": "The Country-style Chuck Ribs are known for their rich beefy flavor and succulence. This cut is filled with connective tissues and is meatier than the Short Ribs."
-    }
-  },
-  {
-    "id": 26,
-    "nama": { "id": "Panggang silang", "en": "Cross-Rib Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_roast.png",
-    "deskripsi": {
-      "id": "Panggang silang-tulang rusuk ditandai dengan kehadiran sejumlah besar jaringan ikat yang membuatnya menjadi pemotongan yang sulit untuk dimasak. Ini mirip dengan panggang bahu, terlepas dari kenyataan bahwa itu relatif lebih lembut dan memiliki tulang melingkar.",
-      "en": "The Cross-Rib Roast is marked by the presence of a large number of connective tissues that make it a tough cut to cook. It is similar to a Shoulder Roast, apart from the fact that it is relatively more tender and has a circular bone."
-    }
-  },
-  {
-    "id": 27,
-    "nama": { "id": "Eye of Round.", "en": "Eye of Round" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
-    "deskripsi": {
-      "id": "Saat dipotong, mata babak memiliki semacam penampilan silindris. Ini adalah porsi daging yang sangat ramping, dengan sedikit marmer dan hanya satu sisi yang ditutupi lemak. Namun kurangnya lemak, juga membuat bagian ekonomis ini menjadi sulit.",
-      "en": "When uncut, the Eye of Round has a sort of cylindrical appearance. This is a very lean portion of meat, with little marbling and only one side of it covered in fat. The lack of fat, however, also makes this economical portion a hard cut."
-    }
-  },
-  {
-    "id": 28,
-    "nama": { "id": "Mata bulat", "en": "Eye Round" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
-    "deskripsi": {
-      "id": "Bulat mata adalah potongan yang baik saat memasak dengan anggaran terbatas. Datang dari bagian bangkai yang banyak berolahraga, daging dalam porsi ini cukup tangguh dan kering dalam tekstur. Konten lemak pada potongan ini minimal.",
-      "en": "The Eye Round is a good cut when cooking on a budget. Coming from a much exercised part of the carcass, the meat in this portion is quite tough and dry in texture. The fat content on this cut is minimal."
-    }
-  },
-  {
-    "id": 29,
-    "nama": { "id": "Panggul steak.", "en": "Flank Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hanger_steak.png",
-    "deskripsi": {
-      "id": "Dibandingkan dengan potongan daging sapi lainnya, steak sayap rata dan panjang dalam penampilannya. Tanggal dalam tekstur, potongannya tanpa lemak dan dikenal karena rasanya yang kaya. Untuk meningkatkan kelembutan porsi ini, itu harus dipotong terhadap biji-bijian.",
-      "en": "Compared to the other cuts of Beef, Flank Steak is flat and long in its appearance. Tough in texture, the cut is devoid of fat and is known for its rich taste. To increase the tenderness of this portion, it should be cut against the grain."
-    }
-  },
-  {
-    "id": 30,
-    "nama": { "id": "Steak besi datar", "en": "Flat Iron Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_iron_steak.png",
-    "deskripsi": {
-      "id": "Steak besi datar diperoleh ketika bara panggang teratas dipotong menjadi irisan dan tidak terdiri dari jaringan ikat yang mempengaruhi tenderisasi panggang blade top. Ini membuatnya diperhitungkan di antara pemotongan yang relatif lebih lembut diambil dari chuck daging sapi. Potongan ini mengandung sejumlah besar marmer.",
-      "en": "The Flat Iron Steak is obtained when the Top Blade Roast is cut into slices and does not comprise the connective tissue that affects the tenderization of Top Blade Roast. This makes it count among the relatively more tender cuts taken from the Beef Chuck. This cut contains a considerable amount of marbling."
-    }
-  },
-  {
-    "id": 31,
-    "nama": { "id": "Tripe datar", "en": "Flat Tripe" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_tripe.png",
-    "deskripsi": {
-      "id": "Tripe datar mungkin bukan yang paling populer dari potongan daging sapi tetapi dapat menghasilkan sepiring makanan beraroma saat dimasak dengan cara yang benar. Mungkin sulit untuk menemukan porsi tripe karena tidak semua pengecer daging menjualnya dengan mudah. Namun, mereka sering digunakan dalam banyak hidangan dan resep tradisional di berbagai belahan dunia.",
-      "en": "Flat Tripe may not be the most popular of Beef cuts but it can yield a flavorful plate of food when cooked the right way. It might be hard to find tripe portions as not all meat retailers sell them readily. They are, however, frequently used in many delicacies and traditional recipes in different parts of the world."
-    }
-  },
-  {
-    "id": 32,
-    "nama": {
-      "id": "Steak sirloin tulang datar",
-      "en": "Flat-Bone Sirloin Steak"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_bone_steak.png",
-    "deskripsi": {
-      "id": "Steak sirloin tulang datar adalah bagian sirloin yang lembut tetapi jauh lebih besar. Karena memiliki lebih banyak tulang daripada potongan sirloin lainnya, itu tidak dianggap sebagai pemotongan yang populer di kalangan konsumen. Untuk alasan ini, itu bukan pemotongan sirloin yang paling murah.",
-      "en": "Flat-Bone Sirloin Steak is a tender but much bonier portion of the Sirloin. Since it has more bones than any other cut of the Sirloin, it is not considered a popular cut among the consumers. For this reason, it is not the priciest of Sirloin cuts."
-    }
-  },
-  {
-    "id": 33,
-    "nama": { "id": "Daging giling", "en": "Ground Beef" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_mince.png",
-    "deskripsi": {
-      "id": "Daging sapi giling diperoleh dengan mengocok campuran potongan daging sapi yang berbeda di penggiling daging. Biasanya terbuat dari sisa, ramping, porsi daging sapi yang kurang lembut dan tidak diinginkan, yang merupakan produk sampingan yang tersisa setelah daging dibagi menjadi berbagai jenis pemotongan.",
-      "en": "Ground Beef is attained by churning a mix of different Beef cuts in the meat grinder. It is usually made from the leftover, lean, less tender and unwanted portions of Beef, which are the by-products remaining after meat is divided into different types of cuts."
-    }
-  },
-  {
-    "id": 34,
-    "nama": { "id": "Gantungan steak.", "en": "Hanger Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hanger_steak.png",
-    "deskripsi": {
-      "id": "Gantungan Steak adalah potongan daging sapi rendah lemak yang dikenal karena rasanya yang indah. Potongan khas gantungan steak berbobot sekitar 1-1 ½ lbs (480-680g) dan memiliki jaringan ikat yang berjalan di tengah.",
-      "en": "Hanger Steak is a low fat cut of Beef that is known for its exquisite taste. A typical cut of Hanger Steak weighs about 1-1 ½ lbs (480-680g) and has a connective tissue running in the middle."
-    }
-  },
-  {
-    "id": 35,
-    "nama": { "id": "Jantung", "en": "Heart" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_heart.png",
-    "deskripsi": {
-      "id": "Hati sapi ditandai dengan konsistensi yang sulit dan rasa karakteristiknya. Ini adalah salah satu porsi jeroan yang lebih murah dan memiliki tekstur yang mirip dengan hati dan limpa. Bagian ini kaya akan nutrisi penting seperti besi dan vitamin A. Ini tersedia di tanda keduanya secara keseluruhan dan diiris.",
-      "en": "Cow’s Heart is marked by its tough consistency and characteristic taste. This is among the cheaper offal portions and has a texture similar to the Liver and Spleen. This portion is rich in important nutrients like iron and Vitamin A. It is available in the marked both as a whole and sliced."
-    }
-  },
-  {
-    "id": 36,
-    "nama": { "id": "Honeycomb Tripe.", "en": "Honeycomb Tripe" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_honeycomb_tripe.png",
-    "deskripsi": {
-      "id": "Honeycomb Tripe adalah yang paling menonjol dari semua varietas babat. Ini juga mengandung lebih banyak daging daripada jenis tripe lainnya dan umumnya dianggap sebagai yang terbaik di antara mereka semua.",
-      "en": "Honeycomb Tripe is the tenderest of all tripe varieties. It also contains more flesh than the other types of tripe and is generally regarded as the best among them all."
-    }
-  },
-  {
-    "id": 37,
-    "nama": { "id": "Menerjang", "en": "Hoof" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hoof.png",
-    "deskripsi": {
-      "id": "Sementara kuku sapi mungkin bukan pemotongan populer di banyak negara, telah disajikan sebagai makanan khusus di berbagai belahan dunia. Ini adalah bagian yang terutama terdiri dari tulang rawan, yang ketika dimasak memperoleh konsistensi agar-agar dan menjadi lengket.",
-      "en": "While cow Hoof may not be a popular cut in many countries, it has been served as a specialty meal in different parts of the world. This is a portion that mainly comprises cartilage, which when cooked acquires a gelatinous consistency and becomes sticky."
-    }
-  },
-  {
-    "id": 38,
-    "nama": { "id": "Ginjal", "en": "Kidney" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_kidney.png",
-    "deskripsi": {
-      "id": "Jauh lebih tangguh daripada ginjal domba atau daging sapi, ginjal daging sapi biasanya berbobot satu pon. Mereka memiliki rasa yang kuat, yang tidak sesuai dengan rasa semua orang. Ginjal dari sapi tidak populer di AS tetapi umumnya digunakan dalam masakan dari bagian lain dunia. Ginjal dari sapi dewasa biasanya cukup tinggi di cholestrol dan, oleh karena itu, tidak boleh dimakan terlalu sering.",
-      "en": "Much tougher than lamb or veal kidney, a Beef Kidney typically weighs one pound. They have a strong flavor, which is not to everyone’s taste. Kidneys from cows are not popular in the US but are commonly used in cuisines from other parts of the world. Kidneys from an adult cow are usually quite high in cholestrol and, therefore, should not be eaten too often."
-    }
-  },
-  {
-    "id": 39,
-    "nama": { "id": "Knuckle Medallion.", "en": "Knuckle Medallion" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
-    "deskripsi": {
-      "id": "Mata Knuckle adalah potongan daging sapi bundar yang dapat dimasak dengan berbagai cara berbeda. Ini adalah potongan ramping dan bisa sedikit sulit jika tidak dimasak dengan benar. Potongan ini lebih populer digunakan dalam masakan Australia.",
-      "en": "Eye of Knuckle is a round cut of Beef that can be cooked in a variety of different ways. This is a lean cut and can be a little tough if not cooked properly. This cut is more popularly used in Australian cuisine."
-    }
-  },
-  {
-    "id": 40,
-    "nama": { "id": "Hati", "en": "Liver" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_liver.png",
-    "deskripsi": {
-      "id": "Hati adalah salah satu bagian paling bergizi dari tubuh sapi. Ini kaya akan nutrisi bermanfaat seperti vitamin A, vitamin B12 dan riboflavin. Dibandingkan dengan hati betis, hati sapi memiliki rasa ringan dan tekstur yang lebih keras.",
-      "en": "Liver is one of the most nutritious parts of a cow’s body. It is rich in beneficial nutrients such as Vitamin A, Vitamin B12 and Riboflavin. Compared to calf’s liver, Beef Liver has a mild taste and a tougher texture."
-    }
-  },
-  {
-    "id": 41,
-    "nama": { "id": "Usus bawah", "en": "Lower Intestines" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_small_intestine.png",
-    "deskripsi": {
-      "id": "Usus yang lebih rendah adalah potongan jerami dan mungkin tidak lebih disukai oleh semua orang karena preferensi budaya atau pribadi. Mereka bisa berubah menjadi cukup beraroma jika dimasak dengan benar. Namun, sebelum dimasak, sangat penting untuk membersihkannya secara menyeluruh untuk menghindari kemungkinan kontaminasi pangan.",
-      "en": "Lower Intestines are an offal cut of Beef and may not be preferred by everyone due to cultural or personal preference. They can turn out to be quite flavorful if cooked correctly. Before being cooked, however, it is imperative to clean them thoroughly in order to avoid any chance of food contamination."
-    }
-  },
-  {
-    "id": 42,
-    "nama": { "id": "Ekor lembu", "en": "Oxtail" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_ox_tail.png",
-    "deskripsi": {
-      "id": "Oxtail adalah nama generik untuk segala jenis ekor sapi. Secara umum, berat buntut buntut dari 2-4 lbs (0,9-1,8kg). Untuk tujuan ritel, porsi ini berkulit dan kemudian diiris menjadi potongan-potongan kecil. Ini adalah bagian tulang-in, yang mengubah agar-agar saat dimasak lambat.",
-      "en": "Oxtail is the generic name for any kind of cattle’s tail. In general, an oxtail’s weight ranges from 2-4 lbs (0.9-1.8kg). For retail purposes, this portion is skinned and then sliced into small pieces. This is a bone-in portion, which turns gelatinous when slow-cooked."
-    }
-  },
-  {
-    "id": 43,
-    "nama": {
-      "id": "Steak sirloin tulang pin",
-      "en": "Pin-Bone Sirloin Steak"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_pin_bone_steak.png",
-    "deskripsi": {
-      "id": "Steak Sirloin Pin-Bone adalah potongan daging sapi yang ditandai dengan tekstur dan rasanya yang luar biasa. Itu menyerupai steak T-Bone dalam penampilannya dan diambil dari bagian tubuh hewan yang sama. Ini relatif masuk akal dalam hal harga bila dibandingkan dengan pemotongan tenderloin yang jauh lebih mahal. Ketebalan tongkat ini biasanya sekitar satu inci.",
-      "en": "Pin-Bone Sirloin Steak is a cut of Beef that is marked by its wonderful texture and taste. It resembles the T-Bone Steak in its appearance and is taken from the same part of the animal’s body. It is comparatively reasonable in terms of price when compared to the much more expensive Tenderloin cuts. The thickness of this stick is typically around an inch."
-    }
-  },
-  {
-    "id": 44,
-    "nama": { "id": "Peternakan steak.", "en": "Ranch Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Potongan steak peternakan diambil dari bagian tanpa tulang dari bahu chuck. Secara umum, ketebalannya disimpan sekitar satu inci, rata-rata sekitar 10 ons (280g). Lemak dikeluarkan dari potongan ini, menjadikannya sebagian besar lebih ramping daripada potongan daging sapi lainnya.",
-      "en": "The Ranch Steak Cut is taken from the boneless section of the Chuck Shoulder. In general, its thickness is kept around an inch, with its average being around 10 oz (280g). The fat is removed from this cut, making it a much leaner portion than other Beef cuts."
-    }
-  },
-  {
-    "id": 45,
-    "nama": { "id": "Rib Eye Roast.", "en": "Rib Eye Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_roast.png",
-    "deskripsi": {
-      "id": "Mirip dengan bagian lain dari bagian tulang rusuk sapi, potongan mata rusuk diidentifikasi untuk rasa premi, standar dan teksturnya. Marbling yang terdefinisi dengan baik membuatnya menjadi potongan yang lembab dan lembut, yang cukup populer di kalangan konsumen dan dapat digunakan untuk membuat berbagai macam hidangan. Kelembutan dari potongan ini berasal dari kenyataan bahwa itu milik bagian tubuh sapi yang kurang berolahraga.",
-      "en": "Similar to other portions of the Beef rib section, the Rib Eye Cut is identified for its premium flavor, standard and texture. Its well-defined marbling makes it a moist and tender cut, one which is quite popular among the consumers and can be used to make a whole range of dishes. The tenderness of this cut comes from the fact that it belongs to a less-exercised part of the cow's body."
-    }
-  },
-  {
-    "id": 46,
-    "nama": { "id": "Daging iga panggang", "en": "Rib Eye Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_steak.png",
-    "deskripsi": {
-      "id": "Menjadi salah satu potongan daging sapi yang lebih rendah, ini adalah sepotong daging yang lembut. Steak iga khas dapat berbobot di mana saja dari 8-20 oz (220-560g), tergantung pada seberapa tebal itu. Potongan yang sangat marmar ini adalah favorit restoran karena rasa dan kelembutannya yang kaya.",
-      "en": "Being one of the lesser exercised cuts of Beef, this is a tender piece of meat. A typical Rib Eye Steak can weigh anywhere from 8-20 oz (220-560g), depending upon how thick it is. This well-marbled cut is a restaurant favorite due to its rich flavor and tenderness."
-    }
-  },
-  {
-    "id": 47,
-    "nama": { "id": "Rib Roast.", "en": "Rib Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_roast.png",
-    "deskripsi": {
-      "id": "Rib Panggang dihitung di antara potongan daging sapi yang tinggi dalam kelembutan, rasa dan, akibatnya, harga juga. Secara keseluruhan, porsinya terdiri dari 7 tulang rusuk terakhir, yang membuatnya cukup besar untuk dipotong menjadi dua porsi: Potongan tulang rusuk pertama dan rusuk potong kedua. Potongan tulang rusuk pertama (end end boast) sangat lembut karena lebih dekat ke pinggang. Di sisi lain, potongan kedua (Rib Panggang end besar) dekat dengan chuck dan relatif rendah dalam kelembutan. Kedua pemotongan rusuk panggang marmar dan menghasilkan hidangan yang lezat sempurna.",
-      "en": "Rib Roast is counted among the Beef cuts that are high in tenderness, flavor and, consequently, price as well. As a whole, the portion comprises the last 7 ribs of the ribcage, which make it large enough to be cut into two portions: first cut Rib Roast and second cut Rib Roast. The first cut rib roast (small end Rib Roast) is extremely tender because it closer to the Loin. On the other hand, the second cut (large end Rib Roast) is close to the Chuck and is relatively low in tenderness. Both cuts of Rib Roast are well-marbled and produce dishes that are perfectly succulent."
-    }
-  },
-  {
-    "id": 48,
-    "nama": { "id": "Rib Steak.", "en": "Rib Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_steak.png",
-    "deskripsi": {
-      "id": "Rib Steak adalah versi Bone-in the Rib Eye Steak dan dikenal dengan kelembutan yang sama dan rasa menakjubkan yang merupakan mitranya tanpa tulang telah mendapatkan namanya. Ini adalah potongan daging sapi yang marmer dan berbutir baik, yang tetap lezat bahkan dimasak sampai dilakukan dengan baik.",
-      "en": "Rib Steak is the bone-in version of the Rib Eye Steak and is known for the same tenderness and amazing flavor for which its boneless counterpart has earned its name. This is a well-marbled and well-grained cut of Beef, which remains succulent even cooked till well done."
-    }
-  },
-  {
-    "id": 49,
-    "nama": { "id": "Berguling brisket.", "en": "Rolled Brisket" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rolled_roast.png",
-    "deskripsi": {
-      "id": "Diisi dengan rasa, gulungan brisket adalah potongan daging sapi yang disukai oleh banyak orang karena harganya yang rendah. Potongan memiliki sejumlah besar lemak, yang menambah kekayaan dan kelembutannya.",
-      "en": "Filled with flavor, Rolled Brisket is a Beef cut that is preferred by many due to its low price. The cut has a significant amount of fat, which adds to its richness and tenderness."
-    }
-  },
-  {
-    "id": 50,
-    "nama": { "id": "Bundar steak.", "en": "Round Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_steak.png",
-    "deskripsi": {
-      "id": "Putaran steak adalah irisan daging yang lebih tipis dari potongan bundar atas. Mudah di saku, ini adalah bagian dari daging yang relatif lebih keras dan tidak memiliki banyak lemak atau marmer.",
-      "en": "Round Steak is the thinner slice of meat cut from a Top Round Roast. Easy on the pocket, this is a relatively tougher portion of meat and does not have much fat or marbling."
-    }
-  },
-  {
-    "id": 51,
-    "nama": {
-      "id": "Steak sirloin tulang bundar",
-      "en": "Round-Bone Sirloin Steak"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_bone_steak.png",
-    "deskripsi": {
-      "id": "Steak sirloin tulang bundar adalah potongan ketiga yang diambil dari sirloin setelah mengeluarkan tulang pin dan sirloin tulang datar. Ini relatif rendah pada kelembutan dibandingkan dengan pemotongan sirloin lainnya. Selain itu, itu adalah yang paling kurus dan ramping di antara potongan sirloin lainnya dengan tulang.",
-      "en": "Round Bone Sirloin Steak is the third cut taken from the Sirloin after taking out the Pin Bone and Flat Bone Sirloin. It is relatively low on tenderness compared to the other Sirloin cuts. Moreover, it is the least bony and leanest among the other Sirloin cuts with bones."
-    }
-  },
-  {
-    "id": 52,
-    "nama": { "id": "Steak Rump Center", "en": "Rump Centre Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
-    "deskripsi": {
-      "id": "Steak Centre Rump adalah bagian dadu daging yang diambil dari pusat bagian Rump Hewan. Low on Tightnessness, area ini banyak dilakukan oleh hewan, yang menyumbang kandungan lemaknya yang rendah dan jumlah besar jaringan ikat.",
-      "en": "The Rump Center Steak is a lean portion of meat taken from the center of the animal’s Rump section. Low on tenderness, this area is exercised heavily by the animal, which accounts for its low fat content and the large number of connective tissues."
-    }
-  },
-  {
-    "id": 53,
-    "nama": { "id": "Rump Medallion.", "en": "Rump Medallion" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
-    "deskripsi": {
-      "id": "Medali pantat diiris bagian pantat daging sapi. Ketebalan medali pantat biasanya sekitar satu inci atau lebih. Ini adalah potongan daging ramping, fitur yang berkontribusi pada ketangguhannya. Potongan ini direkomendasikan untuk pengamat berat badan.",
-      "en": "Rump Medallions are sliced off the rump portion of Beef. The thickness of a Rump Medallion is typically about an inch or so. This is a lean cut of meat, a feature that contributes to its toughness. This cut is recommended for weight watchers."
-    }
-  },
-  {
-    "id": 54,
-    "nama": { "id": "Steak menit pantat", "en": "Rump Minute Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
-    "deskripsi": {
-      "id": "Potong tipis dari pantat, steak pantat kecil memiliki sedikit marmer dan tidak ada otot lemak yang menempel. Karena lebarnya yang kecil, potongan ini membutuhkan sedikit waktu dalam memasak dan merupakan potongan yang nyaman bagi mereka yang ingin hidangan beraroma siap dalam hitungan menit, tanpa harus menghabiskan terlalu banyak waktu atau uang.",
-      "en": "A thin cut from the rump, Rump Minute Steak has little marbling and no attached fatty muscle. Due to its small width, this cut takes very little time in cooking and is a convenient cut for those who want a flavorful dish ready in minutes, without having to spend too much time or money."
-    }
-  },
-  {
-    "id": 55,
-    "nama": { "id": "Rumpur Roast.", "en": "Rump Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
-    "deskripsi": {
-      "id": "Rumpur panggang biasanya merupakan potongan daging sapi berbentuk log besar yang dikenal karena ketangguhannya. Namun, jika dimasak menggunakan metode yang tepat, bagian segitiga daging sapi ini dapat membuat tambahan yang lezat untuk menu dengan harga yang sangat terjangkau.",
-      "en": "Rump Roast is typically a large log-shaped cut of Beef that is known for its toughness. If cooked using the right method, however, this triangular portion of Beef can make for a delicious addition to the menu at a very affordable price."
-    }
-  },
-  {
-    "id": 56,
-    "nama": { "id": "SOP buntut", "en": "Rump Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
-    "deskripsi": {
-      "id": "Rump Steak adalah potongan daging sapi ekonomis yang ramping dan tidak mengandung banyak lemak intramuskuler. Bagian ini cenderung sulit karena itu adalah salah satu area paling aktif dari tubuh sapi dan membutuhkan waktu yang lama untuk memasak untuk melunakkan.",
-      "en": "Rump Steak is an economical cut of Beef that is lean and does not contain much intramuscular fat either. This portion tends to be tough since it is one of the most active areas of the cow’s body and requires a long time to cook in order to soften up."
-    }
-  },
-  {
-    "id": 57,
-    "nama": { "id": "Tulang shin-in", "en": "Shin Bone-in" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_shin_bone.png",
-    "deskripsi": {
-      "id": "Potongan tulang-dalam tulang rapi terdiri dari menjalankan tulang bundar besar, berisi sumsum kaya yang dapat memperkaya rasa hidangan apa pun jika diizinkan untuk keluar. Karena pemotongan diambil dari area shin yang berolahraga dengan berat hewan, mengandung banyak jaringan ikat yang memengaruhi kelembutannya.",
-      "en": "The Bone-In Shin Cut comprises a big round bone running, containing rich marrow that can enrich the flavor of any dish if allowed to ooze out. Since the cut is taken from the heavily exercised shin area of the animal, it contains numerous connective tissues that affect its tenderness."
-    }
-  },
-  {
-    "id": 58,
-    "nama": { "id": "Tulang rusuk pendek", "en": "Short Ribs" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_short_ribs.png",
-    "deskripsi": {
-      "id": "Bertentangan dengan nama mereka, tulang rusuk pendek sapi dapat dipotong dalam ukuran yang berbeda dan tidak harus 'pendek'. Bahkan, beberapa tulang rusuk ini ukurannya cukup besar. Ini adalah porsi daging yang sulit tetapi cukup kaya karena kehadiran lapisan lemak. Ini adalah porsi tulang tetapi dapat didebit, jika lebih disukai.",
-      "en": "Contrary to their name, Beef Short Ribs can be cut in different sizes and do not necessarily have to be ‘short’. In fact, some of these ribs are quite large in size. This is a tough meat portion but is quite rich in taste due to the presence of a layer of fat. This is a bony portion but can be deboned, if preferred."
-    }
-  },
-  {
-    "id": 59,
-    "nama": { "id": "Tender Bahu", "en": "Shoulder Tender" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
-    "deskripsi": {
-      "id": "Tender bahu adalah potongan daging sapi yang relatif tidak diketahui. Biasanya berat sekitar 8-10 oz (220-280g), potongan ini sulit ditemukan di pasar ritel karena hampir tidak mungkin untuk mendapatkannya secara keseluruhan dari bangkai.",
-      "en": "Shoulder Tender is a relatively unknown cut of Beef. Typically weighing around 8-10 oz (220-280g), this cut is hard to find in the retail market since it is virtually impossible to obtain it as a whole from the carcass."
-    }
-  },
-  {
-    "id": 60,
-    "nama": { "id": "Sierra Cut.", "en": "Sierra Cut" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Potongan Sierra dihitung di antara potongan paling lembut di chuck dan dianggap sebagai pilihan yang baik untuk mengasinkan dan memanggang. Ini adalah tambahan yang relatif baru-baru ini dengan kisaran potongan daging sapi. Potongan ini adalah kombinasi daging dan kadar lemak yang baik.",
-      "en": "Sierra cut is counted among the most tender cuts in the Chuck and is considered a good choice to marinate and grill. It is a relatively recent addition to the range of Beef cuts. This cut is a good combination of meat and fatty content."
-    }
-  },
-  {
-    "id": 61,
-    "nama": { "id": "Sirloin flap.", "en": "Sirloin Flap" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_sirloin_flap.png",
-    "deskripsi": {
-      "id": "Jenis potongan daging sapi yang tipis, yang memiliki kesamaan dengan panggul, rok dan gantungan steak. Ini relatif ekonomis dan penuh dengan rasa dengan biji-bijian yang bertekstur halus.",
-      "en": "A thin type of beef cut, which bears similarity to Flank, Skirt and Hanger steaks. It is relatively economical and is full of flavor with finely textured grain."
-    }
-  },
-  {
-    "id": 62,
-    "nama": { "id": "Sirloin Roast.", "en": "Sirloin Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak_roast.png",
-    "deskripsi": {
-      "id": "Sirloin Roast adalah potongan daging tanpa tulang, yang biasanya dijual digulung dan diikat untuk memfasilitasi memasak. Ini adalah potongan daging sapi yang juicy dan agak lembut yang dapat menghasilkan hasil yang sangat baik saat dimasak dengan benar. Tidak terlalu banyak rintangan pada potongan, dengan hanya salah satu sisinya tertutup lapisan lemak.",
-      "en": "Sirloin Roast is a boneless cut of meat, which is typically sold rolled and tied in order to facilitate cooking. This is a juicy and somewhat tender cut of Beef that can bear exceptionally good results when cooked properly. There is not too much marbling on the cut, with just one of its sides covered in a layer of fat."
-    }
-  },
-  {
-    "id": 63,
-    "nama": { "id": "Stik sirloin", "en": "Sirloin Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Potongan sirloin dapat dibagi menjadi sejumlah steak, tetapi itu adalah potongan steak dari sirloin bawah yang biasanya dijual di pasaran sebagai steak sirloin. Ini adalah bagian yang sulit dari daging dan relatif kurang mantap. Ini adalah pemotongan ekonomis dibandingkan dengan sirloin atas.",
-      "en": "The Sirloin cut can be divided into a number of steaks, but it is the steak cut from the Bottom Sirloin that is typically sold in the market as Sirloin Steak. This is a tough portion of meat and relatively less well-marbled. It is an economical cut compared to the Top Sirloin."
-    }
-  },
-  {
-    "id": 64,
-    "nama": { "id": "Steak ujung sirloin", "en": "Sirloin Tip Center Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
-    "deskripsi": {
-      "id": "Meski tidak selembut beberapa potongan daging sapi lainnya, Steak Sirloin Tip Center dianggap sebagai pemotongan yang diturunkan dari babak sapi. Ini adalah pilihan yang bagus untuk pecinta steak yang menginginkan potongan daging sapi yang ekonomis dan lembab.",
-      "en": "Although not as soft as some of the other Beef cuts, Sirloin Tip Center Steak is considered to be the tenderest of cuts taken from the Beef Round. It is a great option for steak lovers who want an economical and moist Beef cut."
-    }
-  },
-  {
-    "id": 65,
-    "nama": {
-      "id": "Steak sisi ujung sirloin",
-      "en": "Sirloin Tip Side Steak"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Steak sisi ujung sirloin diekstraksi dari bagian samping sirloin. Lemak ekstra dalam potongan ini dihapus sebelum dikemas oleh pengecer, karena steak ini ditandai dengan kandungan leanness dan kolesterol rendah.",
-      "en": "Sirloin Tip Side Steak is extracted from the side portion of the Sirloin. Any extra fat in this cut is removed before it is packaged by the retailers, because of which this steak is marked by its leanness and low cholesterol content."
-    }
-  },
-  {
-    "id": 66,
-    "nama": { "id": "Usus kecil", "en": "Small Intestines" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_small_intestine.png",
-    "deskripsi": {
-      "id": "Usus kecil daging sapi ringan dalam rasa dan lebih lunak daripada usus yang lebih rendah. Mereka tidak terlalu populer di masakan barat tetapi cukup populer di masakan Asia, melayani sebagai hidangan khas di banyak restoran Korea dan Cina. Mereka juga digunakan dalam hidangan Meksiko.",
-      "en": "Small Intestines of Beef are mild in taste and are softer than Lower Intestines. They are not very popular in Western cuisines but are quite popular in Asian cooking, serving as delicacies in many Korean and Chinese restaurants. They are also used in Mexican dishes."
-    }
-  },
-  {
-    "id": 67,
-    "nama": { "id": "Limpa", "en": "Spleen" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_spleen.png",
-    "deskripsi": {
-      "id": "Limpa daging sapi adalah salah satu bagian offal daging sapi yang diremehkan, yang cocok untuk dikonsumsi tetapi tidak sepopuler di kalangan konsumen. Memiliki tekstur yang mirip dengan hati, limpa dapat menambahkan rasa novel ke hidangan apa pun yang merupakan bagian. Ini juga organ daging sapi yang sangat bergizi.",
-      "en": "Beef Spleen is another one of the underrated Beef offal parts, which are fit for consumption but not as popular among the consumers. Having a texture similar to the Liver, the Spleen can add a novel flavor to any dish of which it is a part. It is also a very nutritious Beef organ."
-    }
-  },
-  {
-    "id": 68,
-    "nama": { "id": "Rebusan daging sapi", "en": "Stew Beef" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_cube.png",
-    "deskripsi": {
-      "id": "Daging sapi rebusan umumnya diambil dari bagian karkas sapi yang dianggap cocok untuk memasak yang lambat dan lembab. Pemotongan ideal untuk rebusan marmar dan mengandung sejumlah besar jaringan ikat.",
-      "en": "Stew Beef is generally taken from parts of a cow’s carcass that are deemed suitable for slow, moist cooking. The ideal cuts for stewing are well-marbled and contain a large number of connective tissues."
-    }
-  },
-  {
-    "id": 69,
-    "nama": { "id": "Strip tumis", "en": "Stir-fry Strips" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strips.png",
-    "deskripsi": {
-      "id": "Strip tumis adalah strip daging sapi precut yang dijual oleh pengecer daging dalam paket. Untuk meningkatkan kelembutan potongan ini, itu dipotong di seberang gandum.",
-      "en": "Stir-fry Strips are precut strips of Beef that are sold by meat retailers in packages. To increase the tenderness of this cut, it is cut across the grain."
-    }
-  },
-  {
-    "id": 70,
-    "nama": { "id": "Strip Roast.", "en": "Strip Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak_roast.png",
-    "deskripsi": {
-      "id": "Strip Roast adalah bagian daging sapi yang sangat lembut dan marmer, yang digunakan oleh koki dan restoran terkenal di hidangan pilihan mereka. Meskipun biasanya, potongan ini diiris untuk menghasilkan steak sukulen, itu juga dapat digunakan untuk membuat panggang yang luar biasa lembab.",
-      "en": "Strip Roast is an exceptionally tender and well-marbled portion of Beef, which is used by renowned chefs and restaurants in their choicest delicacies. Although typically, this cut is sliced to yield succulent steaks, it can also be used to make amazingly moist roasts."
-    }
-  },
-  {
-    "id": 71,
-    "nama": { "id": "Strip steak.", "en": "Strip Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Strip steak dihitung di antara potongan daging paling mahal karena kualitas tertinggi, meskipun masih lebih rendah dari kelas tulang rusuk dan tenderloin. Ini adalah pemotongan yang sangat lembut sejak bagian di mana diambil dari sedikit latihan. Ini biasanya inci ketebalan.",
-      "en": "Strip Steak is counted among the most expensive cuts of meat due to its supreme quality, although it is still lower in grade than Rib Eye and Tenderloin. This is an incredibly tender cut since the section where it is taken from gets very little exercise. It is typically an inch in thickness."
-    }
-  },
-  {
-    "id": 72,
-    "nama": { "id": "SweetBreads.", "en": "Sweetbreads" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_large_intestine.png",
-    "deskripsi": {
-      "id": "SweetBreads biasanya dikenal karena kelembutan dan rasa ringan mereka. Potongan jeroan ini diketahui berendam dan memperoleh selera dari rawa-rawa yang digunakan untuk membumbui. Sama seperti potongan jeroan lainnya, roti manis perlu dibersihkan secara menyeluruh sebelum dimasak.",
-      "en": "Sweetbreads are typically known for their incredible softness and light flavor. This offal cut is known to soak and acquire tastes from the marinades used to season it. Much like other offal cuts, Sweetbreads need to be cleaned thoroughly before they are cooked."
-    }
-  },
-  {
-    "id": 73,
-    "nama": { "id": "Tulang T", "en": "T-Bone" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_t_bone.png",
-    "deskripsi": {
-      "id": "Steak T-Bone dihitung di antara steak daging sapi yang paling populer dan sesuai permintaan. Ini memiliki loin tenderloin dan strip yang terhubung ke satu tulang. USDA menyatakan bahwa agar steak diklasifikasikan sebagai T-Bone, bagian tenderloin harus memiliki ketebalan minimal ½ inci (1.3cm). Ini adalah daging yang marmer dengan lapisan lemak yang menutupi sisinya juga.",
-      "en": "T-Bone Steak is counted among the most popular and in-demand steaks of Beef. It has the Tenderloin and Strip Loin connected to a single bone. The USDA states that in order for a steak to be classified as T-Bone, the Tenderloin portion should have a minimum of ½-inch (1.3cm) thickness. This is a well-marbled piece of meat with a layer of fat covering its sides as well."
-    }
-  },
-  {
-    "id": 74,
-    "nama": { "id": "Tenderloin Steak.", "en": "Tenderloin Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
-    "deskripsi": {
-      "id": "Mungkin potongan daging sapi yang paling dicari, Steak Tenderloin adalah dunia yang terkenal karena rasa dan sukulennya yang sempurna. Ini adalah daging yang marmer, yang mempertahankan tekstur dan kelembabannya bahkan setelah dimasak pada suhu tinggi. Tenderloin Steak adalah favorit restoran dan merupakan salah satu potongan daging sapi yang paling mahal.",
-      "en": "Perhaps the most sought after Beef cut, Tenderloin Steak is famous world over for its impeccable flavor and succulence. This is a well-marbled piece of meat, which retains its texture and moisture even after being cooked on high temperature. Tenderloin Steak is a restaurant favorite and is one of the most expensive cuts of Beef."
-    }
-  },
-  {
-    "id": 75,
-    "nama": { "id": "Urat daging", "en": "Tendon" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tendon.png",
-    "deskripsi": {
-      "id": "Sementara tendon mungkin tidak terkenal dengan masakan Barat Amerika atau lainnya, itu dianggap sebagai unsur penting dari sejumlah hidangan Asia. Kaya dengan tekstur seperti jeli, cut offal ini menambahkan rasa karakteristiknya sendiri dengan hidangan apa pun yang ditambahkan.",
-      "en": "While the tendon may not be as famous in the American or other Western cuisines, it is considered an essential ingredient of a number of Asian delicacies. Rich with a jelly-like texture, this offal cut adds its own characteristic flavor to any dish to which it is added."
-    }
-  },
-  {
-    "id": 76,
-    "nama": { "id": "Testis.", "en": "Testicles" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_testicles.png",
-    "deskripsi": {
-      "id": "Dengan nama mereka, testis daging sapi pergi banyak orang pergi. Namun, mereka dapat berubah menjadi pilihan daging bervariasi yang beraroma jika dimasak dengan cara yang benar. Porsi jeroan ini terkenal di seluruh wilayah pertanian di Amerika Utara.",
-      "en": "With their name, Beef Testicles drive a lot of people away. They can, however, turn out to be flavorful variety meat options if cooked in the right way. This offal portion is famous all over the farming areas of North America."
-    }
-  },
-  {
-    "id": 77,
-    "nama": { "id": "Lidah", "en": "Tongue" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tongue.png",
-    "deskripsi": {
-      "id": "Lidah adalah bagian yang sulit dari daging, yang tinggi kolesterol dan lemak. Berat rata-rata lidah sapi adalah sekitar 3-4 lbs (1.3-1,8kg). dan dapat dijual seperti atau setelah brining.",
-      "en": "Tongue is a tough portion of meat, which is high in cholestrol and fat. The average weight of a Beef Tongue is around 3-4 lbs (1.3-1.8kg). and can either be sold as it is or after brining."
-    }
-  },
-  {
-    "id": 78,
-    "nama": { "id": "Steak top-round", "en": "Top-Round Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
-    "deskripsi": {
-      "id": "Steak bulat atas adalah potongan daging sapi yang ramah anggaran dengan kelembutan moderat. Mereka biasanya dipasarkan dalam filet yang tebal ½-¾ inci (1,5-2 cm). Dengan jejak lemak ekstra dihapus, potongan ini ramping dan tidak mengandung banyak marmer.",
-      "en": "Top Round Steak is a budget-friendly Beef cut with moderate tenderness. They are typically marketed in filets that are ½ - ¾ of an inch (1.5-2cm) thick. With extra traces of fat removed, this cut is lean and does not contain much marbling."
-    }
-  },
-  {
-    "id": 79,
-    "nama": { "id": "Steak menit ke atas", "en": "Topside Minute Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
-    "deskripsi": {
-      "id": "Steak Topside Topside adalah potongan daging sapi yang sulit, yang umumnya dipotong tanpa ramping dengan sangat sedikit marmer. Ini adalah luka yang manfaat dari memasak cepat seperti memasaknya untuk waktu yang lebih lama dapat mengeringkan kelembabannya sepenuhnya dan menghasilkan daging yang bersering.",
-      "en": "Topside Minute Steak is a tough cut of Beef, which is generally a lean cut with very little marbling. This is a cut that benefits from quick cooking as cooking it for a longer time can dry its moisture out completely and result in a stringy piece of meat."
-    }
-  },
-  {
-    "id": 80,
-    "nama": { "id": "Roast Topside.", "en": "Topside Roast" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
-    "deskripsi": {
-      "id": "Karena hampir tanpa marmer, panggang di atas bisa menjadi bagian yang sulit jika tidak dimasak dengan menggunakan teknik yang tepat. Bagian ini tanpa tulang dan tidak dimaksudkan untuk dimasak menggunakan metode panas kering. Satu sisi panggang ini ditutupi dalam lapisan lemak, yang dapat dihilangkan jika mengikuti diet ketat.",
-      "en": "Being almost devoid of marbling, Topside Roast can be a tough portion if not cooked using the right techniques. This portion is boneless and is not meant to be cooked using dry-heat methods. One side of this roast is covered in a layer of fat, which can be removed if following a strict diet."
-    }
-  },
-  {
-    "id": 81,
-    "nama": { "id": "Steak topside.", "en": "Topside Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
-    "deskripsi": {
-      "id": "Steak topside adalah salah satu potongan daging sapi yang paling ekonomis, yang diambil dari panggang topside. Potongan ini bisa sulit dan perlu ditanamkan sebelum dimasak. Ini juga menghasilkan hasil yang baik jika dimasak menggunakan metode kompor lambat. Potongan ini cukup ramping dan dapat berubah dengan cepat jika matang.",
-      "en": "Topside Steak is among the most economical of Beef cuts, which is taken from the Topside Roast. This cut can be tough and needs to be tenderized before cooking. It also bears good results if cooked using slow-cooker methods. This cut is quite lean and can turn dry quickly if overcooked."
-    }
-  },
-  {
-    "id": 82,
-    "nama": { "id": "Tri-tip.", "en": "Tri-Tip" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tri_tip.png",
-    "deskripsi": {
-      "id": "Tri-tip hadir di setiap sisi hewan, menghasilkan dua 1,5-2,5 lbs (0,6-1.1kg). potongan per hewan. Sampai tahun 1950-an, penggunaan porsi daging ramping dan tanpa tulang ini terbatas untuk membuat daging sapi darat atau memotong steak darinya, tetapi kemudian, itu menjadi potongan daging yang populer untuk dipanggang.",
-      "en": "The Tri-Tip is present on each side of the animal, yielding two 1.5-2.5 lbs (0.6-1.1kg). cuts per animal. Till the 1950s, the use of this lean and boneless portion of meat was limited to making Ground Beef or cutting steaks out of it, but later, it became a popular meat cut for roasting."
-    }
-  },
-  {
-    "id": 83,
-    "nama": { "id": "Bawah steak.", "en": "Underblade Steak" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
-    "deskripsi": {
-      "id": "Potongan daging sapi yang relatif baru ini ditandai dengan rasanya dan rasa yang didefinisikan dengan baik. Karena adanya jaringan lemak di dalam seratnya, cenderung memiliki tekstur berair saat dimasak. Bagian memiliki kesamaan dengan steak bilah atas dan steak 7-tulang tetapi tidak memiliki kelembutan dari keduanya.",
-      "en": "This relatively new cut of Beef is marked by its well-defined marbling and loaded flavor. Due to the presence of fat tissues within its fiber, it tends to have a juicy texture when cooked. The portion bears similarity to the Top Blade Steak and the 7-Bone Steak but lacks the tenderness of these two."
-    }
-  },
-  {
-    "id": 84,
-    "nama": { "id": "Rahim", "en": "Uterus" },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_uterus.png",
-    "deskripsi": {
-      "id": "Meskipun uterus sapi adalah potongan jeroan asli, tidak memiliki popularitas di antara konsumen. Namun, ini tidak berarti bahwa uterus hewan lain juga tidak dikonsumsi. Bahkan, uteri ayam dan babi digunakan dalam banyak hidangan.",
-      "en": "Although Beef Uterus is a genuine offal cut, it lacks popularity among the consumers. This does not mean, however, that Uterus of other animals is also not consumed. In fact, uteri of chickens and pigs are used in many delicacies."
-    }
-  },
-  {
-    "id": 85,
-    "nama": {
-      "id": "Steak sirloin tulang wedge",
-      "en": "Wedge-Bone Sirloin Steak"
-    },
-    "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_wedge_steak.png",
-    "deskripsi": {
-      "id": "Di antara empat pemotongan yang diperoleh dari sirloin, steak sirloin tulang baji adalah yang paling sulit. Ini adalah potongan terakhir yang diambil dari sirloin. Potongan ini biasanya tidak dijual di eceran karena sedikit tanpa permintaan.",
-      "en": "Among the four cuts obtained from the Sirloin, the Wedge-Bone Sirloin Steak is the toughest. It is the last cut taken from the Sirloin. This cut is usually not sold in the retail due to its little to no demand."
-    }
-  }
+   {
+      "deskripsi": {
+         "en": "Counted among the toughest Primal Beef cuts, Arm Roast has been regarded as one of the leanest portions of Beef by the United States Department of Agriculture (USDA). In fact, this low-priced Beef cut is considered a healthy choice due to its minimal cholestrol content.",
+         "id": "Terhitung di antara pemotongan daging sapi primal terberat, Arm Roast telah dianggap sebagai salah satu bagian dari Daging Sapi Leanest oleh Departemen Pertanian Amerika Serikat (USDA). Bahkan, potongan daging sapi dengan harga murah ini dianggap sebagai pilihan sehat karena kandungan cholestrol minimalnya."
+      },
+      "id": 1,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_blade_roast.png",
+      "nama": {
+         "en": "Arm Roast",
+         "id": "Lengan panggang."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Categorized as a tough steak, the Arm Steak is extracted from the Arm Pot Roast Cut by cutting it into slices of around ¾ inch (2cm) thickness. Much like the Arm Roast, the Arm Steak is a lean portion of meat and is considered a healthy choice for diet watchers.",
+         "id": "Dikategorikan sebagai steak yang tangguh, steak lengan diekstraksi dari pemotongan panggang pot lengan dengan memotongnya menjadi irisan sekitar ketebalan ¾ inci (2cm). Sama seperti lengan panggang, steak lengan adalah bagian ramping daging dan dianggap sebagai pilihan sehat untuk pengamat diet."
+      },
+      "id": 2,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_bone_steak.png",
+      "nama": {
+         "en": "Arm Steak",
+         "id": "Lengan steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Beef Back Ribs form a primal cut of Beef that are among the most in-demand portions of Beef commercially. Other famous cuts like Rib Eye Steak and Prime Rib are extracted from this portion. It is a relatively expensive cut of meat known for its marbling, rich meaty flavor and tenderness.",
+         "id": "Iga kembali daging sapi membentuk potongan daging sapi primal yang merupakan salah satu bagian paling dalam permintaan daging sapi secara komersial. Potongan terkenal lainnya seperti iga steak mata dan tulang rusuk utama diekstraksi dari porsi ini. Ini adalah potongan daging yang relatif mahal yang dikenal karena rasanya, rasa dan kelembutannya yang raksasa."
+      },
+      "id": 3,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_back_ribs.png",
+      "nama": {
+         "en": "Back Ribs",
+         "id": "Tulang rusuk kembali"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Bible Tripe is relatively less tender than Honeycomb Tripe but is equally as flavorful if prepared using the right techniques. It has come to be used in many delicacies all over the world and is slowly gaining back its popularity in Britain as well.",
+         "id": "Tripe Alkitab relatif kurang empuk daripada Honeycomb Tripe tetapi sama-sama beraroma jika disiapkan menggunakan teknik yang tepat. Itu datang untuk digunakan dalam banyak hidangan di seluruh dunia dan perlahan-lahan mendapatkan kembali popularitasnya di Inggris juga."
+      },
+      "id": 4,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_bible_tripe.png",
+      "nama": {
+         "en": "Bible Tripe",
+         "id": "Tinggal Alkitab"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Blade Minute Steak is one of the most economical Beef cuts. The cut is not exactly preferred by meat connoisseurs since it has a connective tissue running through its middle part, making it a tough cut to cook and tenderize. It is one of the two types of blade steaks; the other being the Under Blade Steak, which is even tougher.",
+         "id": "Steak Bilah Menit adalah salah satu pemotongan daging sapi paling ekonomis. Potongan tidak disukai oleh penikmat daging karena memiliki jaringan ikat yang mengalir melalui bagian tengahnya, menjadikannya pemotongan yang sulit untuk dimasak dan ditusuk. Ini adalah salah satu dari dua jenis steak blade; Yang lain menjadi steak bilah yang di bawah, yang bahkan lebih sulit."
+      },
+      "id": 5,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
+      "nama": {
+         "en": "Blade Minute Steak",
+         "id": "Steak bilah menit"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "As its name suggests, the Blade Roast is extracted from the shoulder blade of a cow. Generally, a Blade Roast weighs approximately 3-4 lbs (1.3-1.8kg), with its thickness ranging around 3-4 inches (7-10cm). Since it comprises different types of muscles as well as connective tissues, the tenderness of Blade Roast can vary from being moderately to extremely tough.",
+         "id": "Seperti namanya, bilah panggang diekstraksi dari bilah bahu seekor sapi. Secara umum, panggang pisau berbobot sekitar 3-4 lbs (1.3-1,8kg), dengan ketebalannya mulai sekitar 3-4 inci (7-10cm). Karena terdiri dari berbagai jenis otot serta jaringan ikat, kelembutan panggang pisau dapat bervariasi dari cukup tangguh."
+      },
+      "id": 6,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
+      "nama": {
+         "en": "Blade Roast",
+         "id": "Blade Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Blade Steak is obtained by slicing the Blade Roast. It can be of two types, namely Top Blade Steak, which is taken from the top of the shoulder blade, and Under Blade Steak, which is taken from the part under the shoulder blade. It is counted among the tougher portions of meat.",
+         "id": "Blade Steak diperoleh dengan mengiris bilah panggang. Ini bisa terdiri dari dua jenis, yaitu steak bilah teratas, yang diambil dari atas bilah bahu, dan di bawah Steak Blade, yang diambil dari bagian di bawah bilah bahu. Itu dihitung di antara bagian daging yang lebih keras."
+      },
+      "id": 7,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_blade_steak.png",
+      "nama": {
+         "en": "Blade Steak",
+         "id": "Blade steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Bone-In Blade Steak is an inexpensive Beef cut, marked by the presence of a Y-shaped bone in the middle of the meat portion. This cut is rarely used in cooking and is mostly found in Australian cuisines.",
+         "id": "Steak tulang-in bilah adalah potongan daging sapi yang murah, ditandai dengan adanya tulang berbentuk Y di tengah bagian daging. Potongan ini jarang digunakan dalam memasak dan sebagian besar ditemukan di masakan Australia."
+      },
+      "id": 8,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_y_bone_steak.png",
+      "nama": {
+         "en": "Bone-In blade steak",
+         "id": "Steak bilah tulang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Bone-in Strip Steak is counted among the most premium of Beef cuts, which reflects both in its high price tag and its popularity among food connoisseurs. This is a well-marbled piece of meat with some surrounding fat as well. For this reason, this cut is considered an excellent choice for grilling and barbecuing.",
+         "id": "Steak strip tulang dihitung di antara pemotongan daging sapi paling banyak, yang mencerminkan baik dalam label harga tinggi dan popularitasnya di antara para penikmat makanan. Ini adalah sepotong daging yang marmer dengan lemak sekitarnya juga. Untuk alasan ini, potongan ini dianggap sebagai pilihan yang sangat baik untuk memanggang dan memanggang."
+      },
+      "id": 9,
+      "id_infografis": 7,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_shell_steak.png",
+      "nama": {
+         "en": "Bone-in Strip Steak",
+         "id": "Steak strip tulang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Boneless Rolled Rump Roast is marketed by meat retailers by taking a meat portion from the cow’s hind area, rolling it up and tying it with a twine so that it holds its shape. This cut falls under the tough meat category and needs to be cooked properly to ensure a great tasting dish.",
+         "id": "Panggang Rump Gulungan tanpa tulang dipasarkan oleh pengecer daging dengan mengambil bagian daging dari daerah belakang sapi, memutarnya dan mengikatnya dengan benang sehingga memegang bentuknya. Potongan ini jatuh di bawah kategori daging yang sulit dan perlu dimasak dengan benar untuk memastikan hidangan yang enak."
+      },
+      "id": 10,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rolled_roast.png",
+      "nama": {
+         "en": "Boneless Rolled Rump Roast",
+         "id": "Panggang Rump Gulung Tanpa Boneless"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "A cost-effective Beef portion, the Boneless Shin is taken from the front part of a cow’s lower leg. Since this is a heavily exercised part of an animal’s body, it is marked by the presence of a large number of connective tissue and is considered a tough cut.",
+         "id": "Bagian daging sapi yang hemat biaya, Shin tanpa tulang diambil dari bagian depan kaki bagian bawah sapi. Karena ini adalah bagian yang banyak berolahraga dari tubuh binatang, itu ditandai dengan adanya sejumlah besar jaringan ikat dan dianggap sebagai pemotongan yang sulit."
+      },
+      "id": 11,
+      "id_infografis": 11,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_boneless_shin.png",
+      "nama": {
+         "en": "Boneless Shin",
+         "id": "Shin tanpa tulang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Bottom-Round Roast is the ideal cut for those who are looking for a less expensive and low fat cut of Beef. Although not as flavorful as many other Beef cuts, this portion can be used to prepare delicious meals by seasoning it well and then cooking it using the cooking techniques.",
+         "id": "Panggang Bottom-Round adalah potongan ideal bagi mereka yang mencari potong daging sapi yang lebih murah dan rendah lemak. Meski tidak beraroma sebanyak pemotongan daging sapi lainnya, porsi ini dapat digunakan untuk menyiapkan makanan lezat dengan membumbui dengan baik dan kemudian memasaknya menggunakan teknik memasak."
+      },
+      "id": 12,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
+      "nama": {
+         "en": "Bottom-Round Roast",
+         "id": "Panggang Bottom-Round"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Brain is a popular offal cut of Beef, which is commonly used in international cuisines. It is a rich source of Omega-3 fatty acids but is also high in cholesterol. The consumption of this mousse-like organ has reduced significantly due to its high cholesterol levels as well as fears of contracting Bovine Spongiform Encephalopathy (mad cow disease), which can spread through nervous tissues of affected bovine animals.",
+         "id": "Otak adalah potongan daging sapi terpaksa, yang umumnya digunakan dalam masakan internasional. Ini adalah sumber asam lemak omega-3 yang kaya tetapi juga tinggi kolesterol. Konsumsi organ seperti mousse ini telah berkurang secara signifikan karena kadar kolesterolnya yang tinggi serta ketakutan akan mengontrak ensefalopati spongiform bin (penyakit sapi gila), yang dapat menyebar melalui jaringan saraf hewan sapi yang terkena dampak."
+      },
+      "id": 13,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brain.png",
+      "nama": {
+         "en": "Brain",
+         "id": "Otak"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The First Cut is one of the two types of cuts that are extracted from the breast. It is the thinly and relatively leaner portion of  Beef Brisket.",
+         "id": "Potongan pertama adalah salah satu dari dua jenis pemotongan yang diekstraksi dari payudara. Ini adalah bagian dari brisket daging sapi yang tipis dan relatif lebih ramping."
+      },
+      "id": 14,
+      "id_infografis": 14,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brisket_cut.png",
+      "nama": {
+         "en": "Brisket First Cut",
+         "id": "Pemotongan pertama brisket"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Front Cut is the other part of the Brisket, which is taken after removing the First Cut. It is thicker and more moist than the First Cut due to the presence of a greater amount of fat within the meat fibers. It has a pointed shape and is the more economical of the two Brisket cuts.",
+         "id": "Potongan depan adalah bagian lain dari brisket, yang diambil setelah melepas potongan pertama. Ini lebih tebal dan lebih lembab daripada potongan pertama karena kehadiran jumlah lemak yang lebih besar dalam serat daging. Ini memiliki bentuk runcing dan semakin ekonomis dari dua pemotongan brisket."
+      },
+      "id": 15,
+      "id_infografis": 14,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_brisket_cut.png",
+      "nama": {
+         "en": "Brisket Front Cut",
+         "id": "Pemotongan depan brisket"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Butt Filet is a tender cut of Beef, which is taken from the Sirloin. This cut has relatively lower levels of fat and little marbling on it, due to which it is counted as a lean portion of meat.",
+         "id": "Butt filet adalah potongan daging sapi yang lembut, yang diambil dari sirloin. Potongan ini memiliki tingkat lemak yang relatif lebih rendah dan sedikit mantra, karena yang dihitung sebagai bagian dadu daging."
+      },
+      "id": 16,
+      "id_infografis": 4,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
+      "nama": {
+         "en": "Butt Fillet",
+         "id": "Butt Fillet."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "As its name clearly reflects, the Cheek cut is taken from the facial muscles of a cow. Since cows graze several times a day, this is a part that receives a great deal of physical exercise, resulting in toughened up muscles. The typical weight of a Cheek ranges around ¾ -1 lbs (340-450g).",
+         "id": "Seperti namanya jelas mencerminkan, potongan pipi diambil dari otot-otot wajah sapi. Karena Cows merumput beberapa kali sehari, ini adalah bagian yang menerima banyak latihan fisik, mengakibatkan otot-otot yang dikeraskan. Berat khas pipi berkisar di sekitar ¾ -1 lbs (340-450g)."
+      },
+      "id": 17,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_cheek.png",
+      "nama": {
+         "en": "Cheek",
+         "id": "Pipi"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Chuck is a low-priced primal cut of Beef, which is known for its toughness due to the presence of a large number of connective tissues throughout its meat portion. Since it is rich in fat, it is considered to be a good option for making Ground Beef.",
+         "id": "Chuck adalah potongan daging sapi primal dengan harga murah, yang dikenal karena ketangguhannya karena kehadiran sejumlah besar jaringan ikat di seluruh porsi dagingnya. Karena kaya lemak, itu dianggap sebagai pilihan yang baik untuk membuat daging sapi darat."
+      },
+      "id": 18,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_steak.png",
+      "nama": {
+         "en": "Chuck",
+         "id": "Membuang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Being a portion of the Chuck, the 7-Bone Pot Roast cut is known for its toughness. The cut is identified by the presence of a bone, shaped like the digit ‘7’, which cuts through it transversely.",
+         "id": "Menjadi sebagian dari chuck, potongan poast pot 7-tulang dikenal karena ketangguhannya. Potongan diidentifikasi oleh kehadiran tulang, berbentuk seperti digit '7', yang memotongnya secara melintang."
+      },
+      "id": 19,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_seven_bone_roast.png",
+      "nama": {
+         "en": "Chuck 7-Bone Pot Roast",
+         "id": "Chuck 7-Bone Pot Roast"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Chuck 7-Bone Steak is sliced from a Chuck 7-Bone Roast, with its thickness ranging from ½ to ¾ of an inch (1.5-2cm). Since it is taken from the Chuck, the 7-Bone Steak is considered to be a tough cut.",
+         "id": "Steak chuck 7-bone diiris dari panggang chuck 7-bone, dengan ketebalannya mulai dari ½ hingga ¾ inci (1,5-2 cm). Karena diambil dari chuck, steak 7-bone dianggap sebagai pemotongan yang sulit."
+      },
+      "id": 20,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_seven_bone_steak.png",
+      "nama": {
+         "en": "Chuck 7-Bone Steak",
+         "id": "Steak 7-Bone Chuck"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Chuck Eye Roast is a cut that is comparatively high on tenderness than other Chuck portions but is still considered to be a tough meat cut due to the presence of a considerable amount of connective tissues dispersed throughout its fiber. It contains a large amount of fat, which adds to its flavor and juiciness.",
+         "id": "Chuck Eye Roast adalah potongan yang relatif tinggi pada kelembutan daripada bagian chuck lainnya tetapi masih dianggap sebagai potongan daging yang sulit karena kehadiran sejumlah besar jaringan ikat yang tersebar di seluruh seratnya. Ini mengandung sejumlah besar lemak, yang menambah rasa dan ju."
+      },
+      "id": 21,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
+      "nama": {
+         "en": "Chuck Eye Roast",
+         "id": "Chuck Eye Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Chuck Eye Steak is yielded when the Chuck Eye Roast is cut into slices. It bears similarity to the Rib Eye Steak but is comparatively tougher and low on flavor. It is a cost effective substitute for the Rib Eye Steak in many dishes.",
+         "id": "Steak mata chuck dihasilkan ketika daging panggang Chuck dipotong menjadi irisan. Ini memiliki kesamaan dengan steak iga tetapi relatif lebih keras dan rendah rasa. Ini adalah pengganti hemat biaya untuk steak eye eye dalam banyak hidangan."
+      },
+      "id": 22,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
+      "nama": {
+         "en": "Chuck Eye Steak",
+         "id": "Chuck Eye Steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Although they are not as tender or commonly used as the other Beef Short Ribs, Chuck Short Ribs are still well-liked by those who prefer lean yet flavorful portions of meat. Even though the ribs contain bones, they can be deboned in the form of filets.",
+         "id": "Meskipun mereka tidak empuk atau umumnya digunakan sebagai tulang rusuk pendek sapi lainnya, tulang rusuk pendek chuck masih disukai oleh mereka yang lebih suka porsi daging ramping namun beraroma. Meskipun tulang rusuk mengandung tulang, mereka dapat didebit dalam bentuk filet."
+      },
+      "id": 23,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_ribs.png",
+      "nama": {
+         "en": "Chuck Short Ribs",
+         "id": "Chuck Short Ribs."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "It is rare for Coulotte Steaks to be available for purchase at meat retailers. The cut is extracted from the Sirloin and is known to be rich in taste and texture. It lacks tenderness due to little marbling.",
+         "id": "Jarang untuk Coulotte Steaks tersedia untuk dibeli di pengecer daging. Potongan diekstraksi dari sirloin dan diketahui kaya rasa dan tekstur. Ini tidak memiliki kelembutan karena sedikit marmer."
+      },
+      "id": 24,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_coulotte_steak.png",
+      "nama": {
+         "en": "Coulotte Steak",
+         "id": "Coulotte steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Country-style Chuck Ribs are known for their rich beefy flavor and succulence. This cut is filled with connective tissues and is meatier than the Short Ribs.",
+         "id": "Iga chuck bergaya negara dikenal karena rasa dan sukulennya yang kaya. Potongan ini diisi dengan jaringan ikat dan lebih putih dari tulang rusuk pendek."
+      },
+      "id": 25,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_ribs.png",
+      "nama": {
+         "en": "Country-style Chuck Ribs",
+         "id": "Iga chuck gaya negara"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Cross-Rib Roast is marked by the presence of a large number of connective tissues that make it a tough cut to cook. It is similar to a Shoulder Roast, apart from the fact that it is relatively more tender and has a circular bone.",
+         "id": "Panggang silang-tulang rusuk ditandai dengan kehadiran sejumlah besar jaringan ikat yang membuatnya menjadi pemotongan yang sulit untuk dimasak. Ini mirip dengan panggang bahu, terlepas dari kenyataan bahwa itu relatif lebih lembut dan memiliki tulang melingkar."
+      },
+      "id": 26,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_roast.png",
+      "nama": {
+         "en": "Cross-Rib Roast",
+         "id": "Panggang silang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "When uncut, the Eye of Round has a sort of cylindrical appearance. This is a very lean portion of meat, with little marbling and only one side of it covered in fat. The lack of fat, however, also makes this economical portion a hard cut.",
+         "id": "Saat dipotong, mata babak memiliki semacam penampilan silindris. Ini adalah porsi daging yang sangat ramping, dengan sedikit marmer dan hanya satu sisi yang ditutupi lemak. Namun kurangnya lemak, juga membuat bagian ekonomis ini menjadi sulit."
+      },
+      "id": 27,
+      "id_infografis": 11,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
+      "nama": {
+         "en": "Eye of Round",
+         "id": "Eye of Round."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Eye Round is a good cut when cooking on a budget. Coming from a much exercised part of the carcass, the meat in this portion is quite tough and dry in texture. The fat content on this cut is minimal.",
+         "id": "Bulat mata adalah potongan yang baik saat memasak dengan anggaran terbatas. Datang dari bagian bangkai yang banyak berolahraga, daging dalam porsi ini cukup tangguh dan kering dalam tekstur. Konten lemak pada potongan ini minimal."
+      },
+      "id": 28,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
+      "nama": {
+         "en": "Eye Round",
+         "id": "Mata bulat"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Compared to the other cuts of Beef, Flank Steak is flat and long in its appearance. Tough in texture, the cut is devoid of fat and is known for its rich taste. To increase the tenderness of this portion, it should be cut against the grain.",
+         "id": "Dibandingkan dengan potongan daging sapi lainnya, steak sayap rata dan panjang dalam penampilannya. Tanggal dalam tekstur, potongannya tanpa lemak dan dikenal karena rasanya yang kaya. Untuk meningkatkan kelembutan porsi ini, itu harus dipotong terhadap biji-bijian."
+      },
+      "id": 29,
+      "id_infografis": 12,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hanger_steak.png",
+      "nama": {
+         "en": "Flank Steak",
+         "id": "Panggul steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Flat Iron Steak is obtained when the Top Blade Roast is cut into slices and does not comprise the connective tissue that affects the tenderization of Top Blade Roast. This makes it count among the relatively more tender cuts taken from the Beef Chuck. This cut contains a considerable amount of marbling.",
+         "id": "Steak besi datar diperoleh ketika bara panggang teratas dipotong menjadi irisan dan tidak terdiri dari jaringan ikat yang mempengaruhi tenderisasi panggang blade top. Ini membuatnya diperhitungkan di antara pemotongan yang relatif lebih lembut diambil dari chuck daging sapi. Potongan ini mengandung sejumlah besar marmer."
+      },
+      "id": 30,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_iron_steak.png",
+      "nama": {
+         "en": "Flat Iron Steak",
+         "id": "Steak besi datar"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Flat Tripe may not be the most popular of Beef cuts but it can yield a flavorful plate of food when cooked the right way. It might be hard to find tripe portions as not all meat retailers sell them readily. They are, however, frequently used in many delicacies and traditional recipes in different parts of the world.",
+         "id": "Tripe datar mungkin bukan yang paling populer dari potongan daging sapi tetapi dapat menghasilkan sepiring makanan beraroma saat dimasak dengan cara yang benar. Mungkin sulit untuk menemukan porsi tripe karena tidak semua pengecer daging menjualnya dengan mudah. Namun, mereka sering digunakan dalam banyak hidangan dan resep tradisional di berbagai belahan dunia."
+      },
+      "id": 31,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_tripe.png",
+      "nama": {
+         "en": "Flat Tripe",
+         "id": "Tripe datar"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Flat-Bone Sirloin Steak is a tender but much bonier portion of the Sirloin. Since it has more bones than any other cut of the Sirloin, it is not considered a popular cut among the consumers. For this reason, it is not the priciest of Sirloin cuts.",
+         "id": "Steak sirloin tulang datar adalah bagian sirloin yang lembut tetapi jauh lebih besar. Karena memiliki lebih banyak tulang daripada potongan sirloin lainnya, itu tidak dianggap sebagai pemotongan yang populer di kalangan konsumen. Untuk alasan ini, itu bukan pemotongan sirloin yang paling murah."
+      },
+      "id": 32,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_flat_bone_steak.png",
+      "nama": {
+         "en": "Flat-Bone Sirloin Steak",
+         "id": "Steak sirloin tulang datar"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Ground Beef is attained by churning a mix of different Beef cuts in the meat grinder. It is usually made from the leftover, lean, less tender and unwanted portions of Beef, which are the by-products remaining after meat is divided into different types of cuts.",
+         "id": "Daging sapi giling diperoleh dengan mengocok campuran potongan daging sapi yang berbeda di penggiling daging. Biasanya terbuat dari sisa, ramping, porsi daging sapi yang kurang lembut dan tidak diinginkan, yang merupakan produk sampingan yang tersisa setelah daging dibagi menjadi berbagai jenis pemotongan."
+      },
+      "id": 33,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_mince.png",
+      "nama": {
+         "en": "Ground Beef",
+         "id": "Daging giling"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Hanger Steak is a low fat cut of Beef that is known for its exquisite taste. A typical cut of Hanger Steak weighs about 1-1 ½ lbs (480-680g) and has a connective tissue running in the middle.",
+         "id": "Gantungan Steak adalah potongan daging sapi rendah lemak yang dikenal karena rasanya yang indah. Potongan khas gantungan steak berbobot sekitar 1-1 ½ lbs (480-680g) dan memiliki jaringan ikat yang berjalan di tengah."
+      },
+      "id": 34,
+      "id_infografis": 13,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hanger_steak.png",
+      "nama": {
+         "en": "Hanger Steak",
+         "id": "Gantungan steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Cow’s Heart is marked by its tough consistency and characteristic taste. This is among the cheaper offal portions and has a texture similar to the Liver and Spleen. This portion is rich in important nutrients like iron and Vitamin A. It is available in the marked both as a whole and sliced.",
+         "id": "Hati sapi ditandai dengan konsistensi yang sulit dan rasa karakteristiknya. Ini adalah salah satu porsi jeroan yang lebih murah dan memiliki tekstur yang mirip dengan hati dan limpa. Bagian ini kaya akan nutrisi penting seperti besi dan vitamin A. Ini tersedia di tanda keduanya secara keseluruhan dan diiris."
+      },
+      "id": 35,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_heart.png",
+      "nama": {
+         "en": "Heart",
+         "id": "Jantung"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Honeycomb Tripe is the tenderest of all tripe varieties. It also contains more flesh than the other types of tripe and is generally regarded as the best among them all.",
+         "id": "Honeycomb Tripe adalah yang paling menonjol dari semua varietas babat. Ini juga mengandung lebih banyak daging daripada jenis tripe lainnya dan umumnya dianggap sebagai yang terbaik di antara mereka semua."
+      },
+      "id": 36,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_honeycomb_tripe.png",
+      "nama": {
+         "en": "Honeycomb Tripe",
+         "id": "Honeycomb Tripe."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "While cow Hoof may not be a popular cut in many countries, it has been served as a specialty meal in different parts of the world. This is a portion that mainly comprises cartilage, which when cooked acquires a gelatinous consistency and becomes sticky.",
+         "id": "Sementara kuku sapi mungkin bukan pemotongan populer di banyak negara, telah disajikan sebagai makanan khusus di berbagai belahan dunia. Ini adalah bagian yang terutama terdiri dari tulang rawan, yang ketika dimasak memperoleh konsistensi agar-agar dan menjadi lengket."
+      },
+      "id": 37,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_hoof.png",
+      "nama": {
+         "en": "Hoof",
+         "id": "Menerjang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Much tougher than lamb or veal kidney, a Beef Kidney typically weighs one pound. They have a strong flavor, which is not to everyone’s taste. Kidneys from cows are not popular in the US but are commonly used in cuisines from other parts of the world. Kidneys from an adult cow are usually quite high in cholestrol and, therefore, should not be eaten too often.",
+         "id": "Jauh lebih tangguh daripada ginjal domba atau daging sapi, ginjal daging sapi biasanya berbobot satu pon. Mereka memiliki rasa yang kuat, yang tidak sesuai dengan rasa semua orang. Ginjal dari sapi tidak populer di AS tetapi umumnya digunakan dalam masakan dari bagian lain dunia. Ginjal dari sapi dewasa biasanya cukup tinggi di cholestrol dan, oleh karena itu, tidak boleh dimakan terlalu sering."
+      },
+      "id": 38,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_kidney.png",
+      "nama": {
+         "en": "Kidney",
+         "id": "Ginjal"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Eye of Knuckle is a round cut of Beef that can be cooked in a variety of different ways. This is a lean cut and can be a little tough if not cooked properly. This cut is more popularly used in Australian cuisine.",
+         "id": "Mata Knuckle adalah potongan daging sapi bundar yang dapat dimasak dengan berbagai cara berbeda. Ini adalah potongan ramping dan bisa sedikit sulit jika tidak dimasak dengan benar. Potongan ini lebih populer digunakan dalam masakan Australia."
+      },
+      "id": 39,
+      "id_infografis": 11,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
+      "nama": {
+         "en": "Knuckle Medallion",
+         "id": "Knuckle Medallion."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Liver is one of the most nutritious parts of a cow’s body. It is rich in beneficial nutrients such as Vitamin A, Vitamin B12 and Riboflavin. Compared to calf’s liver, Beef Liver has a mild taste and a tougher texture.",
+         "id": "Hati adalah salah satu bagian paling bergizi dari tubuh sapi. Ini kaya akan nutrisi bermanfaat seperti vitamin A, vitamin B12 dan riboflavin. Dibandingkan dengan hati betis, hati sapi memiliki rasa ringan dan tekstur yang lebih keras."
+      },
+      "id": 40,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_liver.png",
+      "nama": {
+         "en": "Liver",
+         "id": "Hati"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Lower Intestines are an offal cut of Beef and may not be preferred by everyone due to cultural or personal preference. They can turn out to be quite flavorful if cooked correctly. Before being cooked, however, it is imperative to clean them thoroughly in order to avoid any chance of food contamination.",
+         "id": "Usus yang lebih rendah adalah potongan jerami dan mungkin tidak lebih disukai oleh semua orang karena preferensi budaya atau pribadi. Mereka bisa berubah menjadi cukup beraroma jika dimasak dengan benar. Namun, sebelum dimasak, sangat penting untuk membersihkannya secara menyeluruh untuk menghindari kemungkinan kontaminasi pangan."
+      },
+      "id": 41,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_small_intestine.png",
+      "nama": {
+         "en": "Lower Intestines",
+         "id": "Usus bawah"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Oxtail is the generic name for any kind of cattle’s tail. In general, an oxtail’s weight ranges from 2-4 lbs (0.9-1.8kg). For retail purposes, this portion is skinned and then sliced into small pieces. This is a bone-in portion, which turns gelatinous when slow-cooked.",
+         "id": "Oxtail adalah nama generik untuk segala jenis ekor sapi. Secara umum, berat buntut buntut dari 2-4 lbs (0,9-1,8kg). Untuk tujuan ritel, porsi ini berkulit dan kemudian diiris menjadi potongan-potongan kecil. Ini adalah bagian tulang-in, yang mengubah agar-agar saat dimasak lambat."
+      },
+      "id": 42,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_ox_tail.png",
+      "nama": {
+         "en": "Oxtail",
+         "id": "Ekor lembu"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Pin-Bone Sirloin Steak is a cut of Beef that is marked by its wonderful texture and taste. It resembles the T-Bone Steak in its appearance and is taken from the same part of the animal’s body. It is comparatively reasonable in terms of price when compared to the much more expensive Tenderloin cuts. The thickness of this stick is typically around an inch.",
+         "id": "Steak Sirloin Pin-Bone adalah potongan daging sapi yang ditandai dengan tekstur dan rasanya yang luar biasa. Itu menyerupai steak T-Bone dalam penampilannya dan diambil dari bagian tubuh hewan yang sama. Ini relatif masuk akal dalam hal harga bila dibandingkan dengan pemotongan tenderloin yang jauh lebih mahal. Ketebalan tongkat ini biasanya sekitar satu inci."
+      },
+      "id": 43,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_pin_bone_steak.png",
+      "nama": {
+         "en": "Pin-Bone Sirloin Steak",
+         "id": "Steak sirloin tulang pin"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Ranch Steak Cut is taken from the boneless section of the Chuck Shoulder. In general, its thickness is kept around an inch, with its average being around 10 oz (280g). The fat is removed from this cut, making it a much leaner portion than other Beef cuts.",
+         "id": "Potongan steak peternakan diambil dari bagian tanpa tulang dari bahu chuck. Secara umum, ketebalannya disimpan sekitar satu inci, rata-rata sekitar 10 ons (280g). Lemak dikeluarkan dari potongan ini, menjadikannya sebagian besar lebih ramping daripada potongan daging sapi lainnya."
+      },
+      "id": 44,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Ranch Steak",
+         "id": "Peternakan steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Similar to other portions of the Beef rib section, the Rib Eye Cut is identified for its premium flavor, standard and texture. Its well-defined marbling makes it a moist and tender cut, one which is quite popular among the consumers and can be used to make a whole range of dishes. The tenderness of this cut comes from the fact that it belongs to a less-exercised part of the cow's body.",
+         "id": "Mirip dengan bagian lain dari bagian tulang rusuk sapi, potongan mata rusuk diidentifikasi untuk rasa premi, standar dan teksturnya. Marbling yang terdefinisi dengan baik membuatnya menjadi potongan yang lembab dan lembut, yang cukup populer di kalangan konsumen dan dapat digunakan untuk membuat berbagai macam hidangan. Kelembutan dari potongan ini berasal dari kenyataan bahwa itu milik bagian tubuh sapi yang kurang berolahraga."
+      },
+      "id": 45,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_roast.png",
+      "nama": {
+         "en": "Rib Eye Roast",
+         "id": "Rib Eye Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Being one of the lesser exercised cuts of Beef, this is a tender piece of meat. A typical Rib Eye Steak can weigh anywhere from 8-20 oz (220-560g), depending upon how thick it is. This well-marbled cut is a restaurant favorite due to its rich flavor and tenderness.",
+         "id": "Menjadi salah satu potongan daging sapi yang lebih rendah, ini adalah sepotong daging yang lembut. Steak iga khas dapat berbobot di mana saja dari 8-20 oz (220-560g), tergantung pada seberapa tebal itu. Potongan yang sangat marmar ini adalah favorit restoran karena rasa dan kelembutannya yang kaya."
+      },
+      "id": 46,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_eye_steak.png",
+      "nama": {
+         "en": "Rib Eye Steak",
+         "id": "Daging iga panggang"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Rib Roast is counted among the Beef cuts that are high in tenderness, flavor and, consequently, price as well. As a whole, the portion comprises the last 7 ribs of the ribcage, which make it large enough to be cut into two portions: first cut Rib Roast and second cut Rib Roast. The first cut rib roast (small end Rib Roast) is extremely tender because it closer to the Loin. On the other hand, the second cut (large end Rib Roast) is close to the Chuck and is relatively low in tenderness. Both cuts of Rib Roast are well-marbled and produce dishes that are perfectly succulent.",
+         "id": "Rib Panggang dihitung di antara potongan daging sapi yang tinggi dalam kelembutan, rasa dan, akibatnya, harga juga. Secara keseluruhan, porsinya terdiri dari 7 tulang rusuk terakhir, yang membuatnya cukup besar untuk dipotong menjadi dua porsi: Potongan tulang rusuk pertama dan rusuk potong kedua. Potongan tulang rusuk pertama (end end boast) sangat lembut karena lebih dekat ke pinggang. Di sisi lain, potongan kedua (Rib Panggang end besar) dekat dengan chuck dan relatif rendah dalam kelembutan. Kedua pemotongan rusuk panggang marmar dan menghasilkan hidangan yang lezat sempurna."
+      },
+      "id": 47,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_roast.png",
+      "nama": {
+         "en": "Rib Roast",
+         "id": "Rib Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Rib Steak is the bone-in version of the Rib Eye Steak and is known for the same tenderness and amazing flavor for which its boneless counterpart has earned its name. This is a well-marbled and well-grained cut of Beef, which remains succulent even cooked till well done.",
+         "id": "Rib Steak adalah versi Bone-in the Rib Eye Steak dan dikenal dengan kelembutan yang sama dan rasa menakjubkan yang merupakan mitranya tanpa tulang telah mendapatkan namanya. Ini adalah potongan daging sapi yang marmer dan berbutir baik, yang tetap lezat bahkan dimasak sampai dilakukan dengan baik."
+      },
+      "id": 48,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rib_steak.png",
+      "nama": {
+         "en": "Rib Steak",
+         "id": "Rib Steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Filled with flavor, Rolled Brisket is a Beef cut that is preferred by many due to its low price. The cut has a significant amount of fat, which adds to its richness and tenderness.",
+         "id": "Diisi dengan rasa, gulungan brisket adalah potongan daging sapi yang disukai oleh banyak orang karena harganya yang rendah. Potongan memiliki sejumlah besar lemak, yang menambah kekayaan dan kelembutannya."
+      },
+      "id": 49,
+      "id_infografis": 14,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_rolled_roast.png",
+      "nama": {
+         "en": "Rolled Brisket",
+         "id": "Berguling brisket."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Round Steak is the thinner slice of meat cut from a Top Round Roast. Easy on the pocket, this is a relatively tougher portion of meat and does not have much fat or marbling.",
+         "id": "Putaran steak adalah irisan daging yang lebih tipis dari potongan bundar atas. Mudah di saku, ini adalah bagian dari daging yang relatif lebih keras dan tidak memiliki banyak lemak atau marmer."
+      },
+      "id": 50,
+      "id_infografis": 11,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_steak.png",
+      "nama": {
+         "en": "Round Steak",
+         "id": "Bundar steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Round Bone Sirloin Steak is the third cut taken from the Sirloin after taking out the Pin Bone and Flat Bone Sirloin. It is relatively low on tenderness compared to the other Sirloin cuts. Moreover, it is the least bony and leanest among the other Sirloin cuts with bones.",
+         "id": "Steak sirloin tulang bundar adalah potongan ketiga yang diambil dari sirloin setelah mengeluarkan tulang pin dan sirloin tulang datar. Ini relatif rendah pada kelembutan dibandingkan dengan pemotongan sirloin lainnya. Selain itu, itu adalah yang paling kurus dan ramping di antara potongan sirloin lainnya dengan tulang."
+      },
+      "id": 51,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_bone_steak.png",
+      "nama": {
+         "en": "Round-Bone Sirloin Steak",
+         "id": "Steak sirloin tulang bundar"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Rump Center Steak is a lean portion of meat taken from the center of the animal’s Rump section. Low on tenderness, this area is exercised heavily by the animal, which accounts for its low fat content and the large number of connective tissues.",
+         "id": "Steak Centre Rump adalah bagian dadu daging yang diambil dari pusat bagian Rump Hewan. Low on Tightnessness, area ini banyak dilakukan oleh hewan, yang menyumbang kandungan lemaknya yang rendah dan jumlah besar jaringan ikat."
+      },
+      "id": 52,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
+      "nama": {
+         "en": "Rump Centre Steak",
+         "id": "Steak Rump Center"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Rump Medallions are sliced off the rump portion of Beef. The thickness of a Rump Medallion is typically about an inch or so. This is a lean cut of meat, a feature that contributes to its toughness. This cut is recommended for weight watchers.",
+         "id": "Medali pantat diiris bagian pantat daging sapi. Ketebalan medali pantat biasanya sekitar satu inci atau lebih. Ini adalah potongan daging ramping, fitur yang berkontribusi pada ketangguhannya. Potongan ini direkomendasikan untuk pengamat berat badan."
+      },
+      "id": 53,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_knuckle_medallion.png",
+      "nama": {
+         "en": "Rump Medallion",
+         "id": "Rump Medallion."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "A thin cut from the rump, Rump Minute Steak has little marbling and no attached fatty muscle. Due to its small width, this cut takes very little time in cooking and is a convenient cut for those who want a flavorful dish ready in minutes, without having to spend too much time or money.",
+         "id": "Potong tipis dari pantat, steak pantat kecil memiliki sedikit marmer dan tidak ada otot lemak yang menempel. Karena lebarnya yang kecil, potongan ini membutuhkan sedikit waktu dalam memasak dan merupakan potongan yang nyaman bagi mereka yang ingin hidangan beraroma siap dalam hitungan menit, tanpa harus menghabiskan terlalu banyak waktu atau uang."
+      },
+      "id": 54,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
+      "nama": {
+         "en": "Rump Minute Steak",
+         "id": "Steak menit pantat"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Rump Roast is typically a large log-shaped cut of Beef that is known for its toughness. If cooked using the right method, however, this triangular portion of Beef can make for a delicious addition to the menu at a very affordable price.",
+         "id": "Rumpur panggang biasanya merupakan potongan daging sapi berbentuk log besar yang dikenal karena ketangguhannya. Namun, jika dimasak menggunakan metode yang tepat, bagian segitiga daging sapi ini dapat membuat tambahan yang lezat untuk menu dengan harga yang sangat terjangkau."
+      },
+      "id": 55,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
+      "nama": {
+         "en": "Rump Roast",
+         "id": "Rumpur Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Rump Steak is an economical cut of Beef that is lean and does not contain much intramuscular fat either. This portion tends to be tough since it is one of the most active areas of the cow’s body and requires a long time to cook in order to soften up.",
+         "id": "Rump Steak adalah potongan daging sapi ekonomis yang ramping dan tidak mengandung banyak lemak intramuskuler. Bagian ini cenderung sulit karena itu adalah salah satu area paling aktif dari tubuh sapi dan membutuhkan waktu yang lama untuk memasak untuk melunakkan."
+      },
+      "id": 56,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
+      "nama": {
+         "en": "Rump Steak",
+         "id": "SOP buntut"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Bone-In Shin Cut comprises a big round bone running, containing rich marrow that can enrich the flavor of any dish if allowed to ooze out. Since the cut is taken from the heavily exercised shin area of the animal, it contains numerous connective tissues that affect its tenderness.",
+         "id": "Potongan tulang-dalam tulang rapi terdiri dari menjalankan tulang bundar besar, berisi sumsum kaya yang dapat memperkaya rasa hidangan apa pun jika diizinkan untuk keluar. Karena pemotongan diambil dari area shin yang berolahraga dengan berat hewan, mengandung banyak jaringan ikat yang memengaruhi kelembutannya."
+      },
+      "id": 57,
+      "id_infografis": 11,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_shin_bone.png",
+      "nama": {
+         "en": "Shin Bone-in",
+         "id": "Tulang shin-in"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Contrary to their name, Beef Short Ribs can be cut in different sizes and do not necessarily have to be ‘short’. In fact, some of these ribs are quite large in size. This is a tough meat portion but is quite rich in taste due to the presence of a layer of fat. This is a bony portion but can be deboned, if preferred.",
+         "id": "Bertentangan dengan nama mereka, tulang rusuk pendek sapi dapat dipotong dalam ukuran yang berbeda dan tidak harus 'pendek'. Bahkan, beberapa tulang rusuk ini ukurannya cukup besar. Ini adalah porsi daging yang sulit tetapi cukup kaya karena kehadiran lapisan lemak. Ini adalah porsi tulang tetapi dapat didebit, jika lebih disukai."
+      },
+      "id": 58,
+      "id_infografis": 8,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_short_ribs.png",
+      "nama": {
+         "en": "Short Ribs",
+         "id": "Tulang rusuk pendek"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Shoulder Tender is a relatively unknown cut of Beef. Typically weighing around 8-10 oz (220-280g), this cut is hard to find in the retail market since it is virtually impossible to obtain it as a whole from the carcass.",
+         "id": "Tender bahu adalah potongan daging sapi yang relatif tidak diketahui. Biasanya berat sekitar 8-10 oz (220-280g), potongan ini sulit ditemukan di pasar ritel karena hampir tidak mungkin untuk mendapatkannya secara keseluruhan dari bangkai."
+      },
+      "id": 59,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tenderloin.png",
+      "nama": {
+         "en": "Shoulder Tender",
+         "id": "Tender Bahu"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Sierra cut is counted among the most tender cuts in the Chuck and is considered a good choice to marinate and grill. It is a relatively recent addition to the range of Beef cuts. This cut is a good combination of meat and fatty content.",
+         "id": "Potongan Sierra dihitung di antara potongan paling lembut di chuck dan dianggap sebagai pilihan yang baik untuk mengasinkan dan memanggang. Ini adalah tambahan yang relatif baru-baru ini dengan kisaran potongan daging sapi. Potongan ini adalah kombinasi daging dan kadar lemak yang baik."
+      },
+      "id": 60,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Sierra Cut",
+         "id": "Sierra Cut."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "A thin type of beef cut, which bears similarity to Flank, Skirt and Hanger steaks. It is relatively economical and is full of flavor with finely textured grain.",
+         "id": "Jenis potongan daging sapi yang tipis, yang memiliki kesamaan dengan panggul, rok dan gantungan steak. Ini relatif ekonomis dan penuh dengan rasa dengan biji-bijian yang bertekstur halus."
+      },
+      "id": 61,
+      "id_infografis": 6,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_sirloin_flap.png",
+      "nama": {
+         "en": "Sirloin Flap",
+         "id": "Sirloin flap."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Sirloin Roast is a boneless cut of meat, which is typically sold rolled and tied in order to facilitate cooking. This is a juicy and somewhat tender cut of Beef that can bear exceptionally good results when cooked properly. There is not too much marbling on the cut, with just one of its sides covered in a layer of fat.",
+         "id": "Sirloin Roast adalah potongan daging tanpa tulang, yang biasanya dijual digulung dan diikat untuk memfasilitasi memasak. Ini adalah potongan daging sapi yang juicy dan agak lembut yang dapat menghasilkan hasil yang sangat baik saat dimasak dengan benar. Tidak terlalu banyak rintangan pada potongan, dengan hanya salah satu sisinya tertutup lapisan lemak."
+      },
+      "id": 62,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak_roast.png",
+      "nama": {
+         "en": "Sirloin Roast",
+         "id": "Sirloin Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Sirloin cut can be divided into a number of steaks, but it is the steak cut from the Bottom Sirloin that is typically sold in the market as Sirloin Steak. This is a tough portion of meat and relatively less well-marbled. It is an economical cut compared to the Top Sirloin.",
+         "id": "Potongan sirloin dapat dibagi menjadi sejumlah steak, tetapi itu adalah potongan steak dari sirloin bawah yang biasanya dijual di pasaran sebagai steak sirloin. Ini adalah bagian yang sulit dari daging dan relatif kurang mantap. Ini adalah pemotongan ekonomis dibandingkan dengan sirloin atas."
+      },
+      "id": 63,
+      "id_infografis": 6,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Sirloin Steak",
+         "id": "Stik sirloin"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Although not as soft as some of the other Beef cuts, Sirloin Tip Center Steak is considered to be the tenderest of cuts taken from the Beef Round. It is a great option for steak lovers who want an economical and moist Beef cut.",
+         "id": "Meski tidak selembut beberapa potongan daging sapi lainnya, Steak Sirloin Tip Center dianggap sebagai pemotongan yang diturunkan dari babak sapi. Ini adalah pilihan yang bagus untuk pecinta steak yang menginginkan potongan daging sapi yang ekonomis dan lembab."
+      },
+      "id": 64,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
+      "nama": {
+         "en": "Sirloin Tip Center Steak",
+         "id": "Steak ujung sirloin"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Sirloin Tip Side Steak is extracted from the side portion of the Sirloin. Any extra fat in this cut is removed before it is packaged by the retailers, because of which this steak is marked by its leanness and low cholesterol content.",
+         "id": "Steak sisi ujung sirloin diekstraksi dari bagian samping sirloin. Lemak ekstra dalam potongan ini dihapus sebelum dikemas oleh pengecer, karena steak ini ditandai dengan kandungan leanness dan kolesterol rendah."
+      },
+      "id": 65,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Sirloin Tip Side Steak",
+         "id": "Steak sisi ujung sirloin"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Small Intestines of Beef are mild in taste and are softer than Lower Intestines. They are not very popular in Western cuisines but are quite popular in Asian cooking, serving as delicacies in many Korean and Chinese restaurants. They are also used in Mexican dishes.",
+         "id": "Usus kecil daging sapi ringan dalam rasa dan lebih lunak daripada usus yang lebih rendah. Mereka tidak terlalu populer di masakan barat tetapi cukup populer di masakan Asia, melayani sebagai hidangan khas di banyak restoran Korea dan Cina. Mereka juga digunakan dalam hidangan Meksiko."
+      },
+      "id": 66,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_small_intestine.png",
+      "nama": {
+         "en": "Small Intestines",
+         "id": "Usus kecil"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Beef Spleen is another one of the underrated Beef offal parts, which are fit for consumption but not as popular among the consumers. Having a texture similar to the Liver, the Spleen can add a novel flavor to any dish of which it is a part. It is also a very nutritious Beef organ.",
+         "id": "Limpa daging sapi adalah salah satu bagian offal daging sapi yang diremehkan, yang cocok untuk dikonsumsi tetapi tidak sepopuler di kalangan konsumen. Memiliki tekstur yang mirip dengan hati, limpa dapat menambahkan rasa novel ke hidangan apa pun yang merupakan bagian. Ini juga organ daging sapi yang sangat bergizi."
+      },
+      "id": 67,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_spleen.png",
+      "nama": {
+         "en": "Spleen",
+         "id": "Limpa"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Stew Beef is generally taken from parts of a cow’s carcass that are deemed suitable for slow, moist cooking. The ideal cuts for stewing are well-marbled and contain a large number of connective tissues.",
+         "id": "Daging sapi rebusan umumnya diambil dari bagian karkas sapi yang dianggap cocok untuk memasak yang lambat dan lembab. Pemotongan ideal untuk rebusan marmar dan mengandung sejumlah besar jaringan ikat."
+      },
+      "id": 68,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_chuck_cube.png",
+      "nama": {
+         "en": "Stew Beef",
+         "id": "Rebusan daging sapi"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Stir-fry Strips are precut strips of Beef that are sold by meat retailers in packages. To increase the tenderness of this cut, it is cut across the grain.",
+         "id": "Strip tumis adalah strip daging sapi precut yang dijual oleh pengecer daging dalam paket. Untuk meningkatkan kelembutan potongan ini, itu dipotong di seberang gandum."
+      },
+      "id": 69,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strips.png",
+      "nama": {
+         "en": "Stir-fry Strips",
+         "id": "Strip tumis"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Strip Roast is an exceptionally tender and well-marbled portion of Beef, which is used by renowned chefs and restaurants in their choicest delicacies. Although typically, this cut is sliced to yield succulent steaks, it can also be used to make amazingly moist roasts.",
+         "id": "Strip Roast adalah bagian daging sapi yang sangat lembut dan marmer, yang digunakan oleh koki dan restoran terkenal di hidangan pilihan mereka. Meskipun biasanya, potongan ini diiris untuk menghasilkan steak sukulen, itu juga dapat digunakan untuk membuat panggang yang luar biasa lembab."
+      },
+      "id": 70,
+      "id_infografis": 7,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak_roast.png",
+      "nama": {
+         "en": "Strip Roast",
+         "id": "Strip Roast."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Strip Steak is counted among the most expensive cuts of meat due to its supreme quality, although it is still lower in grade than Rib Eye and Tenderloin. This is an incredibly tender cut since the section where it is taken from gets very little exercise. It is typically an inch in thickness.",
+         "id": "Strip steak dihitung di antara potongan daging paling mahal karena kualitas tertinggi, meskipun masih lebih rendah dari kelas tulang rusuk dan tenderloin. Ini adalah pemotongan yang sangat lembut sejak bagian di mana diambil dari sedikit latihan. Ini biasanya inci ketebalan."
+      },
+      "id": 71,
+      "id_infografis": 7,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Strip Steak",
+         "id": "Strip steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Sweetbreads are typically known for their incredible softness and light flavor. This offal cut is known to soak and acquire tastes from the marinades used to season it. Much like other offal cuts, Sweetbreads need to be cleaned thoroughly before they are cooked.",
+         "id": "SweetBreads biasanya dikenal karena kelembutan dan rasa ringan mereka. Potongan jeroan ini diketahui berendam dan memperoleh selera dari rawa-rawa yang digunakan untuk membumbui. Sama seperti potongan jeroan lainnya, roti manis perlu dibersihkan secara menyeluruh sebelum dimasak."
+      },
+      "id": 72,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_large_intestine.png",
+      "nama": {
+         "en": "Sweetbreads",
+         "id": "SweetBreads."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "T-Bone Steak is counted among the most popular and in-demand steaks of Beef. It has the Tenderloin and Strip Loin connected to a single bone. The USDA states that in order for a steak to be classified as T-Bone, the Tenderloin portion should have a minimum of ½-inch (1.3cm) thickness. This is a well-marbled piece of meat with a layer of fat covering its sides as well.",
+         "id": "Steak T-Bone dihitung di antara steak daging sapi yang paling populer dan sesuai permintaan. Ini memiliki loin tenderloin dan strip yang terhubung ke satu tulang. USDA menyatakan bahwa agar steak diklasifikasikan sebagai T-Bone, bagian tenderloin harus memiliki ketebalan minimal ½ inci (1.3cm). Ini adalah daging yang marmer dengan lapisan lemak yang menutupi sisinya juga."
+      },
+      "id": 73,
+      "id_infografis": 7,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_t_bone.png",
+      "nama": {
+         "en": "T-Bone",
+         "id": "Tulang T"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Perhaps the most sought after Beef cut, Tenderloin Steak is famous world over for its impeccable flavor and succulence. This is a well-marbled piece of meat, which retains its texture and moisture even after being cooked on high temperature. Tenderloin Steak is a restaurant favorite and is one of the most expensive cuts of Beef.",
+         "id": "Mungkin potongan daging sapi yang paling dicari, Steak Tenderloin adalah dunia yang terkenal karena rasa dan sukulennya yang sempurna. Ini adalah daging yang marmer, yang mempertahankan tekstur dan kelembabannya bahkan setelah dimasak pada suhu tinggi. Tenderloin Steak adalah favorit restoran dan merupakan salah satu potongan daging sapi yang paling mahal."
+      },
+      "id": 74,
+      "id_infografis": 4,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_eye_steak.png",
+      "nama": {
+         "en": "Tenderloin Steak",
+         "id": "Tenderloin Steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "While the tendon may not be as famous in the American or other Western cuisines, it is considered an essential ingredient of a number of Asian delicacies. Rich with a jelly-like texture, this offal cut adds its own characteristic flavor to any dish to which it is added.",
+         "id": "Sementara tendon mungkin tidak terkenal dengan masakan Barat Amerika atau lainnya, itu dianggap sebagai unsur penting dari sejumlah hidangan Asia. Kaya dengan tekstur seperti jeli, cut offal ini menambahkan rasa karakteristiknya sendiri dengan hidangan apa pun yang ditambahkan."
+      },
+      "id": 75,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tendon.png",
+      "nama": {
+         "en": "Tendon",
+         "id": "Urat daging"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "With their name, Beef Testicles drive a lot of people away. They can, however, turn out to be flavorful variety meat options if cooked in the right way. This offal portion is famous all over the farming areas of North America.",
+         "id": "Dengan nama mereka, testis daging sapi pergi banyak orang pergi. Namun, mereka dapat berubah menjadi pilihan daging bervariasi yang beraroma jika dimasak dengan cara yang benar. Porsi jeroan ini terkenal di seluruh wilayah pertanian di Amerika Utara."
+      },
+      "id": 76,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_testicles.png",
+      "nama": {
+         "en": "Testicles",
+         "id": "Testis."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Tongue is a tough portion of meat, which is high in cholestrol and fat. The average weight of a Beef Tongue is around 3-4 lbs (1.3-1.8kg). and can either be sold as it is or after brining.",
+         "id": "Lidah adalah bagian yang sulit dari daging, yang tinggi kolesterol dan lemak. Berat rata-rata lidah sapi adalah sekitar 3-4 lbs (1.3-1,8kg). dan dapat dijual seperti atau setelah brining."
+      },
+      "id": 77,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tongue.png",
+      "nama": {
+         "en": "Tongue",
+         "id": "Lidah"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Top Round Steak is a budget-friendly Beef cut with moderate tenderness. They are typically marketed in filets that are ½ - ¾ of an inch (1.5-2cm) thick. With extra traces of fat removed, this cut is lean and does not contain much marbling.",
+         "id": "Steak bulat atas adalah potongan daging sapi yang ramah anggaran dengan kelembutan moderat. Mereka biasanya dipasarkan dalam filet yang tebal ½-¾ inci (1,5-2 cm). Dengan jejak lemak ekstra dihapus, potongan ini ramping dan tidak mengandung banyak marmer."
+      },
+      "id": 78,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
+      "nama": {
+         "en": "Top-Round Steak",
+         "id": "Steak top-round"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Topside Minute Steak is a tough cut of Beef, which is generally a lean cut with very little marbling. This is a cut that benefits from quick cooking as cooking it for a longer time can dry its moisture out completely and result in a stringy piece of meat.",
+         "id": "Steak Topside Topside adalah potongan daging sapi yang sulit, yang umumnya dipotong tanpa ramping dengan sangat sedikit marmer. Ini adalah luka yang manfaat dari memasak cepat seperti memasaknya untuk waktu yang lebih lama dapat mengeringkan kelembabannya sepenuhnya dan menghasilkan daging yang bersering."
+      },
+      "id": 79,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_minute_steak.png",
+      "nama": {
+         "en": "Topside Minute Steak",
+         "id": "Steak menit ke atas"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Being almost devoid of marbling, Topside Roast can be a tough portion if not cooked using the right techniques. This portion is boneless and is not meant to be cooked using dry-heat methods. One side of this roast is covered in a layer of fat, which can be removed if following a strict diet.",
+         "id": "Karena hampir tanpa marmer, panggang di atas bisa menjadi bagian yang sulit jika tidak dimasak dengan menggunakan teknik yang tepat. Bagian ini tanpa tulang dan tidak dimaksudkan untuk dimasak menggunakan metode panas kering. Satu sisi panggang ini ditutupi dalam lapisan lemak, yang dapat dihilangkan jika mengikuti diet ketat."
+      },
+      "id": 80,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_round_roast.png",
+      "nama": {
+         "en": "Topside Roast",
+         "id": "Roast Topside."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Topside Steak is among the most economical of Beef cuts, which is taken from the Topside Roast. This cut can be tough and needs to be tenderized before cooking. It also bears good results if cooked using slow-cooker methods. This cut is quite lean and can turn dry quickly if overcooked.",
+         "id": "Steak topside adalah salah satu potongan daging sapi yang paling ekonomis, yang diambil dari panggang topside. Potongan ini bisa sulit dan perlu ditanamkan sebelum dimasak. Ini juga menghasilkan hasil yang baik jika dimasak menggunakan metode kompor lambat. Potongan ini cukup ramping dan dapat berubah dengan cepat jika matang."
+      },
+      "id": 81,
+      "id_infografis": 2,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_top_round_steak.png",
+      "nama": {
+         "en": "Topside Steak",
+         "id": "Steak topside."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "The Tri-Tip is present on each side of the animal, yielding two 1.5-2.5 lbs (0.6-1.1kg). cuts per animal. Till the 1950s, the use of this lean and boneless portion of meat was limited to making Ground Beef or cutting steaks out of it, but later, it became a popular meat cut for roasting.",
+         "id": "Tri-tip hadir di setiap sisi hewan, menghasilkan dua 1,5-2,5 lbs (0,6-1.1kg). potongan per hewan. Sampai tahun 1950-an, penggunaan porsi daging ramping dan tanpa tulang ini terbatas untuk membuat daging sapi darat atau memotong steak darinya, tetapi kemudian, itu menjadi potongan daging yang populer untuk dipanggang."
+      },
+      "id": 82,
+      "id_infografis": 6,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_tri_tip.png",
+      "nama": {
+         "en": "Tri-Tip",
+         "id": "Tri-tip."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "This relatively new cut of Beef is marked by its well-defined marbling and loaded flavor. Due to the presence of fat tissues within its fiber, it tends to have a juicy texture when cooked. The portion bears similarity to the Top Blade Steak and the 7-Bone Steak but lacks the tenderness of these two.",
+         "id": "Potongan daging sapi yang relatif baru ini ditandai dengan rasanya dan rasa yang didefinisikan dengan baik. Karena adanya jaringan lemak di dalam seratnya, cenderung memiliki tekstur berair saat dimasak. Bagian memiliki kesamaan dengan steak bilah atas dan steak 7-tulang tetapi tidak memiliki kelembutan dari keduanya."
+      },
+      "id": 83,
+      "id_infografis": 9,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_strip_steak.png",
+      "nama": {
+         "en": "Underblade Steak",
+         "id": "Bawah steak."
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Although Beef Uterus is a genuine offal cut, it lacks popularity among the consumers. This does not mean, however, that Uterus of other animals is also not consumed. In fact, uteri of chickens and pigs are used in many delicacies.",
+         "id": "Meskipun uterus sapi adalah potongan jeroan asli, tidak memiliki popularitas di antara konsumen. Namun, ini tidak berarti bahwa uterus hewan lain juga tidak dikonsumsi. Bahkan, uteri ayam dan babi digunakan dalam banyak hidangan."
+      },
+      "id": 84,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_uterus.png",
+      "nama": {
+         "en": "Uterus",
+         "id": "Rahim"
+      }
+   },
+   {
+      "deskripsi": {
+         "en": "Among the four cuts obtained from the Sirloin, the Wedge-Bone Sirloin Steak is the toughest. It is the last cut taken from the Sirloin. This cut is usually not sold in the retail due to its little to no demand.",
+         "id": "Di antara empat pemotongan yang diperoleh dari sirloin, steak sirloin tulang baji adalah yang paling sulit. Ini adalah potongan terakhir yang diambil dari sirloin. Potongan ini biasanya tidak dijual di eceran karena sedikit tanpa permintaan."
+      },
+      "id": 85,
+      "id_infografis": 3,
+      "imageUrl": "http://nosetotailapp.com/ntt/cuts/cut-images/cow_wedge_steak.png",
+      "nama": {
+         "en": "Wedge-Bone Sirloin Steak",
+         "id": "Steak sirloin tulang wedge"
+      }
+   }
 ]

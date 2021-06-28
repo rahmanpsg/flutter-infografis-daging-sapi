@@ -6,6 +6,8 @@ import 'package:infografis_daging_sapi/screens/resep.dart';
 import 'package:infografis_daging_sapi/styles/constant.dart';
 import 'package:shimmer/shimmer.dart';
 
+import 'emptyData.dart';
+
 class ListResepInfografis extends StatelessWidget {
   const ListResepInfografis({Key? key}) : super(key: key);
 
@@ -18,20 +20,7 @@ class ListResepInfografis extends StatelessWidget {
         return state.isLoading
             ? _shimmerLoading()
             : state.resepList.length <= 0
-                ? Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Icon(
-                        Icons.no_food,
-                        size: 50,
-                        color: secondaryColor,
-                      ),
-                      Text(
-                        "empty_data",
-                        style: secondaryStyle.copyWith(color: Colors.black54),
-                      ).tr(),
-                    ],
-                  )
+                ? emptyData()
                 : ListView.builder(
                     itemCount: state.isLoading ? 5 : state.resepList.length,
                     padding: EdgeInsets.symmetric(vertical: 10),

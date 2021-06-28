@@ -44,12 +44,17 @@ Stream<ResepState> _mapLoadDataList(
       (i) => ResepModel.fromJson(response.data[i]),
     );
 
-    yield* Stream.periodic(
-        const Duration(seconds: 1),
-        (_) => state.copyWith(
-              resepList: resepList,
-              idInfografis: event.idInfografis,
-            ));
+    yield state.copyWith(
+      resepList: resepList,
+      idInfografis: event.idInfografis,
+    );
+
+    // yield* Stream.periodic(
+    //     const Duration(seconds: 1),
+    //     (_) => state.copyWith(
+    //           resepList: resepList,
+    //           idInfografis: event.idInfografis,
+    //         ));
   } catch (e) {
     yield state.copyWith(
       error: ErrorHandlingModel(

@@ -5,6 +5,7 @@ class OlahanState extends Equatable {
     this.olahanList = const <OlahanModel>[],
     this.olahanListFilter = const <OlahanModel>[],
     this.selectedList = -1,
+    this.selectedMetode = "",
     this.isLoading = false,
     this.error = const ErrorHandlingModel(status: true, value: ""),
   });
@@ -12,6 +13,7 @@ class OlahanState extends Equatable {
   final List<OlahanModel> olahanList;
   final List<OlahanModel> olahanListFilter;
   final int selectedList;
+  final String selectedMetode;
   final bool isLoading;
   final ErrorHandlingModel error;
 
@@ -19,6 +21,7 @@ class OlahanState extends Equatable {
     List<OlahanModel>? olahanList,
     List<OlahanModel>? olahanListFilter,
     int? selectedList,
+    String? selectedMetode,
     bool? isLoading,
     ErrorHandlingModel? error,
   }) {
@@ -26,12 +29,19 @@ class OlahanState extends Equatable {
       olahanList: olahanList ?? this.olahanList,
       olahanListFilter: olahanListFilter ?? this.olahanListFilter,
       selectedList: selectedList ?? this.selectedList,
+      selectedMetode: selectedMetode ?? this.selectedMetode,
       isLoading: isLoading ?? this.isLoading,
       error: error ?? this.error,
     );
   }
 
   @override
-  List<Object> get props =>
-      [olahanList, olahanListFilter, selectedList, isLoading, error];
+  List<Object> get props => [
+        olahanList,
+        olahanListFilter,
+        selectedList,
+        selectedMetode,
+        isLoading,
+        error,
+      ];
 }

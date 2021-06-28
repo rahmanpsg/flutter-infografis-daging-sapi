@@ -15,3 +15,9 @@ class SelectedChange extends InfografisEvent {
   SelectedChange(this.selected);
   final int selected;
 }
+
+class FilterDagingList extends InfografisEvent {
+  FilterDagingList(this.dagingList, this.idInfografis);
+  final List<DagingModel> dagingList;
+  final int idInfografis;
+}

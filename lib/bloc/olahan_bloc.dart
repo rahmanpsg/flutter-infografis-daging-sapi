@@ -23,6 +23,10 @@ class OlahanBloc extends Bloc<OlahanEvent, OlahanState> {
       yield _mapChangeSelected(event, state);
     } else if (event is FilterBySearch) {
       yield _mapFilterBySearch(event, state);
+    } else if (event is FilterByMetode) {
+      yield _mapFilterByMetode(event, state);
+    } else if (event is ClearFilter) {
+      yield _mapClearFilter(event, state);
     }
   }
 }
@@ -45,12 +49,18 @@ Stream<OlahanState> _mapLoadDataList(
       (i) => OlahanModel.fromJson(response.data[i]),
     );
 
-    yield* Stream.periodic(
-        const Duration(seconds: 1),
-        (_) => state.copyWith(
-              olahanList: olahanList,
-              olahanListFilter: olahanList,
-            ));
+    yield state.copyWith(
+      olahanList: olahanList,
+      olahanListFilter: olahanList,
+    );
+
+    // yield* Stream.periodic(
+    //   const Duration(seconds: 1),
+    //   (_) => state.copyWith(
+    //     olahanList: olahanList,
+    //     olahanListFilter: olahanList,
+    //   ),
+    // );
   } catch (e) {
     yield state.copyWith(
       error: ErrorHandlingModel(
@@ -66,6 +76,7 @@ OlahanState _mapChangeSelected(
   OlahanState state,
 ) {
   final int selectedList = event.selected;
+  print(selectedList);
   return state.copyWith(selectedList: selectedList);
 }
 
@@ -80,12 +91,47 @@ OlahanState _mapFilterBySearch(
   final List<OlahanModel> olahanListFilter = [];
 
   olahanList.forEach((OlahanModel list) => {
-        if (list.nama[language].toString().contains(query))
+        if (list.nama[language]
+            .toString()
+            .toLowerCase()
+            .contains(query.toLowerCase()))
           olahanListFilter.add(list)
       });
 
   return state.copyWith(
+    olahanList: olahanList,
     olahanListFilter: olahanListFilter,
-    olahanList: olahanListFilter,
+  );
+}
+
+OlahanState _mapFilterByMetode(
+  FilterByMetode event,
+  OlahanState state,
+) {
+  final List<OlahanModel> olahanList = event.olahanList;
+  final String metode = event.metode;
+
+  final List<OlahanModel> olahanListFilter = [];
+
+  olahanList.forEach((OlahanModel list) =>
+      {if (list.metode == metode) olahanListFilter.add(list)});
+
+  return state.copyWith(
+    olahanListFilter: olahanListFilter,
+    olahanList: olahanList,
+    selectedMetode: metode,
+  );
+}
+
+OlahanState _mapClearFilter(
+  ClearFilter event,
+  OlahanState state,
+) {
+  final List<OlahanModel> olahanList = event.olahanList;
+
+  return state.copyWith(
+    olahanListFilter: olahanList,
+    olahanList: olahanList,
+    selectedMetode: "",
   );
 }

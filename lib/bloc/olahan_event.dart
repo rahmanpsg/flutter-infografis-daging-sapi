@@ -26,3 +26,17 @@ class FilterBySearch extends OlahanEvent {
   final String query;
   final String language;
 }
+
+class FilterByMetode extends OlahanEvent {
+  FilterByMetode({
+    required this.olahanList,
+    required this.metode,
+  });
+  final List<OlahanModel> olahanList;
+  final String metode;
+}
+
+class ClearFilter extends OlahanEvent {
+  ClearFilter({required this.olahanList});
+  final List<OlahanModel> olahanList;
+}

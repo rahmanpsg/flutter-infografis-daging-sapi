@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:infografis_daging_sapi/styles/constant.dart';
 
 class TentangScreen extends StatelessWidget {
@@ -9,9 +11,9 @@ class TentangScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Tentang",
+          "menu.tentang",
           style: TextStyle(fontWeight: FontWeight.bold),
-        ),
+        ).tr(),
       ),
       backgroundColor: bgColor,
       body: Card(
@@ -30,18 +32,17 @@ class TentangScreen extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text(
-                  'Aplikasi Infografis Pada Daging Sapi Berbasis Android'),
+              title: const Text('tentang.judul').tr(),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Text(
-                'Infografis adalah media informasi yang disajikan dalam bentuk teks, serta dipadukan dengan beberapa elemen visual seperti gambar, ilustrasi, grafik, dan tipografi.',
+                'tentang.info',
                 style: TextStyle(
                   color: Colors.black.withOpacity(0.6),
                 ),
                 textAlign: TextAlign.justify,
-              ),
+              ).tr(),
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
@@ -53,24 +54,88 @@ class TentangScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text('Pembimbing 1 : Muhammad Zainal, ST. MT'),
-                  SizedBox(height: 10),
-                  Text('Pembimbing 2 : Masnur, ST., M.Kom'),
-                  SizedBox(height: 10),
-                  Text('Penguji 1 : Marlina, S.kom, M.Kom'),
-                  SizedBox(height: 10),
-                  Text('Penguji 2 : Hj. A. Irmayani P, ST., MT'),
-                ],
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    _dosenInfo("pembimbing", "1", "Muhammad Zainal, ST. MT"),
+                    SizedBox(height: 10),
+                    _dosenInfo("pembimbing", "2", "Masnur, ST., M.Kom"),
+                    SizedBox(height: 10),
+                    _dosenInfo("penguji", "1", "Marlina, S.kom, M.Kom"),
+                    SizedBox(height: 10),
+                    _dosenInfo("penguji", "2", "Hj. A. Irmayani P, ST., MT"),
+                  ],
+                ),
               ),
             ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                InkWell(
+                  child: Container(
+                    child: Image.asset(
+                      "assets/images/google_play.png",
+                      height: 25,
+                    ),
+                  ),
+                  onTap: () {
+                    Fluttertoast.showToast(
+                      msg: "Coming Soon",
+                      toastLength: Toast.LENGTH_SHORT,
+                      gravity: ToastGravity.SNACKBAR,
+                      backgroundColor: bgColor,
+                      textColor: Colors.black87,
+                      fontSize: 16.0,
+                    );
+                  },
+                ),
+                SizedBox(width: 10),
+                InkWell(
+                  child: Container(
+                    child: Image.asset(
+                      "assets/images/gmail.png",
+                      height: 30,
+                    ),
+                  ),
+                  onTap: () {
+                    Fluttertoast.showToast(
+                      msg: "syaifulsaipul99@gmail.com",
+                      toastLength: Toast.LENGTH_SHORT,
+                      gravity: ToastGravity.BOTTOM,
+                      backgroundColor: bgColor,
+                      textColor: Colors.black87,
+                      fontSize: 16.0,
+                    );
+                  },
+                ),
+              ],
+            ),
+            SizedBox(height: 20)
           ],
         ),
       ),
     );
   }
+}
+
+Widget _dosenInfo(String dosen, String angka, String nama) {
+  final dosenLength = "tentang.$dosen".tr().length;
+  return Row(
+    children: [
+      Text("tentang.$dosen").tr(args: [angka]),
+      SizedBox(
+          width: dosen == "pembimbing"
+              ? 20
+              : dosenLength == 11
+                  ? 25
+                  : 52),
+      Text(":"),
+      SizedBox(width: 20),
+      Expanded(child: Text(nama)),
+    ],
+  );
 }
