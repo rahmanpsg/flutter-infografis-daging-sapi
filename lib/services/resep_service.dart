@@ -17,7 +17,7 @@ class ResepService extends SupabaseService<ResepModel> {
     return await supabase
         .from("resep")
         .select()
-        .eq("id_infografis", id)
+        .eq("idInfografis", id)
         .execute();
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:infografis_daging_sapi/bloc/olahan_bloc.dart';
 import 'package:infografis_daging_sapi/models/olahan_models.dart';
 import 'package:infografis_daging_sapi/models/resep_models.dart';
@@ -194,6 +195,15 @@ Widget _buttonMetode(
                 metode: metode,
               ),
             );
+
+      Fluttertoast.showToast(
+        msg: metode.toUpperCase(),
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.CENTER,
+        backgroundColor: bgColor,
+        textColor: Colors.black87,
+        fontSize: 16.0,
+      );
     },
   );
 }
